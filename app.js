@@ -94,5 +94,63 @@ function sync() { renderFilters(); renderGrid(); }
 el('search').addEventListener('input', (e) => { state.query = e.target.value; renderGrid(); });
 el('sort').addEventListener('change', (e) => { state.sort = e.target.value; renderGrid(); });
 
+function field(label, value) {
+  if (!value || (Array.isArray(value) && !value.length)) return '';
+  const v = Array.isArray(value) ? value.map(esc).join(', ') : esc(value);
+  return `<div class="field"><div class="label">${esc(label)}</div><div>${v}</div></div>`;
+}
+
+function openPanel(id) {
+  const s = SITES.find((x) => x.id === id);
+  if (!s) return;
+  const t = store.get(id);
+  const link = s.website ? `<a class="open" href="${esc(s.website)}" target="_blank" rel="noopener">Visit website ↗</a>` : '';
+  el('panel-body').innerHTML = `
+    <button class="panel-close" id="panel-close" aria-label="Close">✕</button>
+    <h2>${esc(s.name)}</h2>
+    ${link}
+    <p class="desc-full">${esc(s.description)}</p>
+    ${field('Area', s.area)}
+    ${field('Addresses', s.addresses)}
+    ${field('Site type', s.siteTypes)}
+    ${field('Populations', s.populations)}
+    ${field('Services', s.services)}
+    ${field('Delivery', s.deliveryModes)}
+    ${field('Compensation', s.compensationNote)}
+    ${field('Languages', s.languages)}
+    ${field('Positions', s.positionsCount)}
+    ${field('Application requires', s.applicationRequirements)}
+    ${field('Deadline', s.deadline)}
+    ${field('How to apply', s.applyMethod)}
+    ${field('Contact', s.contact)}
+    <hr>
+    <div class="label">My status</div>
+    <select class="status-select" id="status-select">
+      ${STATUSES.map((x) => `<option ${x === t.status ? 'selected' : ''}>${x}</option>`).join('')}
+    </select>
+    <div class="label" style="margin-top:12px">My notes</div>
+    <textarea class="notes-box" id="notes-box" placeholder="Application notes…">${esc(t.notes)}</textarea>`;
+  el('panel').hidden = false;
+
+  const persist = () => {
+    store.set(id, { status: el('status-select').value, notes: el('notes-box').value });
+    renderStats(); renderGrid();
+  };
+  el('status-select').addEventListener('change', persist);
+  el('notes-box').addEventListener('input', persist);
+  el('panel-close').addEventListener('click', closePanel);
+}
+
+function closePanel() { el('panel').hidden = true; }
+el('panel-scrim').addEventListener('click', closePanel);
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closePanel(); });
+
+el('grid').addEventListener('click', (e) => {
+  const card = e.target.closest('.card'); if (card) openPanel(card.dataset.id);
+});
+el('grid').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') { const card = e.target.closest('.card'); if (card) openPanel(card.dataset.id); }
+});
+
 // exported for later tasks
 window.__app = { renderGrid, renderStats, state, get SITES(){ return SITES; }, store };
