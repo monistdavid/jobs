@@ -260,6 +260,20 @@ const RAW = [
   ['Sample Supports', 'https://www.samplesupports.com', 'Thornton', false, '', '(720) 684-6102',
     'Community behavioral health/disability org offering supervised LPC/LCSW/addictions clinical internships.',
     { siteTypes: ['Community behavioral health'], coverLetter: 'unknown' }],
+
+  // --- Asian / AAPI-serving batch (Claude in Chrome, Asian-focus pass) ---
+  ['Jewish Family Service of Colorado', 'https://www.jewishfamilyservice.org', 'Denver', false, '', '(303) 597-5000',
+    'Human-services nonprofit with a Refugee Mental Health Program (serving Afghan, Iraqi, and Asian refugees and immigrants) and the school-based KidSuccess program, which places master’s-level counseling interns in Denver-area schools.',
+    { siteTypes: ['Nonprofit / community'], populations: ['Asian / immigrant & refugee communities', 'Children', 'Trauma'], coverLetter: 'unknown' }],
+  ['CU Anschutz – Immigrant and Refugee Mental Health Program', 'https://medschool.cuanschutz.edu/psychiatry', 'Aurora', false, '', '(720) 848-9400',
+    'University psychiatric clinic providing culturally sensitive care to immigrants and refugees from Asia and worldwide; trains MSW interns and psychology externs within its Immigrant and Refugee Mental Health Program.',
+    { siteTypes: ['Hospital / medical center', 'University'], populations: ['Asian / immigrant & refugee communities', 'Trauma'], coverLetter: 'unknown' }],
+  ['NAAPIMHA (Nat’l Asian American Pacific Islander Mental Health Assn)', 'https://www.naapimha.org', 'Denver', false, '', '(720) 939-6494',
+    'Denver-headquartered national nonprofit dedicated to AAPI (Asian American, Native Hawaiian, Pacific Islander) mental health; hosts program/policy/outreach interns (advocacy-focused rather than direct clinical counseling).',
+    { siteTypes: ['Nonprofit / community'], populations: ['AAPI / Asian American communities', 'Advocacy & outreach'], coverLetter: 'unknown' }],
+  ['InnerWoven Therapy', 'https://www.innerwoventherapy.com', 'Denver', false, '', '(720) 306-1858',
+    'Group private practice in the Denver Tech Center that explicitly specializes in Asian and BIPOC mental health (cultural identity, family expectations, racial trauma); offers supervision for pre-licensed therapists and has hosted externs.',
+    { siteTypes: ['Group practice'], populations: ['Asian & BIPOC communities', 'Trauma'], coverLetter: 'unknown' }],
 ];
 
 const EMPTY_ARRAYS = ['addresses', 'siteTypes', 'populations', 'services', 'deliveryModes', 'languages', 'applicationRequirements'];
