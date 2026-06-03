@@ -4607,5 +4607,455 @@
     "coverLetter": "unknown",
     "hiresAfter": false,
     "source": "research"
+  },
+  {
+    "id": "joybrain-counseling",
+    "name": "JoyBrain Counseling",
+    "website": "https://joybraincounseling.com",
+    "description": "Somatic and mind-body therapy group practice with a dedicated master’s-level internship program for University of Denver and Naropa students.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "LGBTQ+",
+      "Trauma",
+      "Neurodivergent"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "aspen-therapy-collective",
+    "name": "Aspen Therapy Collective",
+    "website": "https://aspentherapycollective.org",
+    "description": "Small private practice specializing in play therapy and child/adolescent work that recruits MSW and counseling interns.",
+    "area": "Lafayette",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents",
+      "Trauma"
+    ],
+    "services": [
+      "Play therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(970) 415-7974",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "cu-anschutz-psychiatry-master-s-behavioral-health-internship",
+    "name": "CU Anschutz Psychiatry – Master’s Behavioral Health Internship",
+    "website": "https://medschool.cuanschutz.edu/psychiatry",
+    "description": "CU Anschutz Psychiatry places 6–8 MSW/MA/MFT concentration-year interns annually across outpatient, OCD, depression, and student mental health clinics (Colorado schools only; apply by March 31).",
+    "area": "Aurora",
+    "addresses": [],
+    "siteTypes": [
+      "Hospital / medical center",
+      "University"
+    ],
+    "populations": [
+      "Adults"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 724-3300",
+    "coverLetter": "not-required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "safehouse-denver",
+    "name": "SafeHouse Denver",
+    "website": "https://safehouse-denver.org",
+    "description": "Denver’s domestic-violence-exclusive shelter and counseling center; accepts MSW interns via university field-office partnerships.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Trauma",
+      "Women",
+      "Children"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 318-9959",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "colorado-coalition-for-the-homeless",
+    "name": "Colorado Coalition for the Homeless",
+    "website": "https://www.coloradocoalition.org",
+    "description": "Major Denver nonprofit with integrated housing, healthcare, and behavioral health services; accepts clinical internship placements (confirm the placement is behavioral-health, not medical).",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Substance use / addiction",
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 293-2220",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "va-eastern-colorado-msw-intern-program",
+    "name": "VA Eastern Colorado – MSW Intern Program",
+    "website": "https://www.va.gov/eastern-colorado-health-care/work-with-us/internships-and-fellowships/master-of-social-work-intern-program/",
+    "description": "13 paid MSW internship slots in mental health, homeless, medical, and geriatric social work; fall cohort only; US citizens; cover letter + resume + application required.",
+    "area": "Aurora",
+    "addresses": [],
+    "siteTypes": [
+      "Hospital / medical center"
+    ],
+    "populations": [
+      "Veterans",
+      "Trauma",
+      "Substance use / addiction"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": true,
+    "compensationNote": "Paid CSWE-accredited MSW internship ($7,500 stipend)",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 723-7000",
+    "coverLetter": "required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "open-visions-llc",
+    "name": "Open Visions LLC",
+    "website": "https://openvisionsllc.com",
+    "description": "Transpersonal psychotherapy practice accepting Colorado master’s-level interns in-office or via telehealth (CBT, somatic, IFS, Gottman, mindfulness).",
+    "area": "Lakewood",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Substance use / addiction",
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "",
+    "coverLetter": "not-required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "eating-recovery-center-erc-pathlight",
+    "name": "Eating Recovery Center / ERC Pathlight",
+    "website": "https://www.eatingrecoverycenter.com/careers/",
+    "description": "National eating-disorder and mood-disorder treatment center headquartered in Denver; has offered stipended master’s-level internships at PHP/IOP levels of care.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Hospital / medical center"
+    ],
+    "populations": [
+      "Eating disorders",
+      "Adolescents",
+      "Adults"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": true,
+    "compensationNote": "Historically stipended internships (verify currency — last posting seen 2021)",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(877) 825-8584",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "rocky-mountain-crisis-partners",
+    "name": "Rocky Mountain Crisis Partners",
+    "website": "https://rmcrisispartners.org",
+    "description": "Operates Colorado crisis/suicide-prevention hotlines; paid MSW internship answering crisis lines and messaging; resume + cover letter required.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Crisis & suicide prevention"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": true,
+    "compensationNote": "Paid internship (~$17.29/hr)",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "",
+    "coverLetter": "required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "arvada-therapy-solutions",
+    "name": "Arvada Therapy Solutions",
+    "website": "https://www.arvadatherapysolutions.com",
+    "description": "Private practice offering a year-long master’s-level internship with live observation (one-way mirror) and weekly supervision; sliding scale; children, teens, adults, couples, families.",
+    "area": "Arvada",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents",
+      "Couples",
+      "Families"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 551-9072",
+    "coverLetter": "required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "finding-hiawatha-therapy",
+    "name": "Finding Hiawatha Therapy",
+    "website": "https://www.findinghiawathatherapy.com",
+    "description": "Animal-assisted therapy ranch; two-semester 20-hr/week MSW/MA internship with equine, play, and gestalt training (prior practicum experience required).",
+    "area": "Lakewood",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Children",
+      "Trauma"
+    ],
+    "services": [
+      "Play therapy",
+      "Animal-assisted therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 663-0846",
+    "coverLetter": "not-required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "shiloh-house",
+    "name": "Shiloh House",
+    "website": "https://www.shilohhouse.org",
+    "description": "Multi-site nonprofit serving high-acuity youth (ages 5–17) in residential and day treatment; MSW and MA Direct Therapy internships in community outpatient and day treatment.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents",
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 933-1393",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "denver-center-for-play-therapy",
+    "name": "Denver Center for Play Therapy",
+    "website": "https://denvercenterforplaytherapy.com",
+    "description": "Play-therapy training clinic offering master’s internships with Attachment-Based Play Therapy certification (700-hour, one-year). NOTE: listed as NOT accepting placements for the 2025–26 cycle — check before applying.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Training clinic"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents"
+    ],
+    "services": [
+      "Play therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 355-4422",
+    "coverLetter": "required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "boulder-valley-school-district-school-counseling-internships",
+    "name": "Boulder Valley School District – School Counseling Internships",
+    "website": "https://www.bvsd.org/departments/student-support-services/counseling/school-counseling-internships",
+    "description": "Accepts master’s-level SCHOOL counseling interns placed in K-12 schools (school-counseling concentration track, not clinical mental health counseling).",
+    "area": "Boulder",
+    "addresses": [],
+    "siteTypes": [
+      "School / education"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 561-5000",
+    "coverLetter": "not-required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "highlands-behavioral-health-system",
+    "name": "Highlands Behavioral Health System",
+    "website": "https://highlandsbhs.com",
+    "description": "UHS-owned 86-bed acute-care inpatient psychiatric hospital; takes master’s-level social work/behavioral health interns for assessment, counseling, documentation, and referral experience.",
+    "area": "Littleton",
+    "addresses": [],
+    "siteTypes": [
+      "Hospital / medical center"
+    ],
+    "populations": [
+      "Adolescents",
+      "Adults",
+      "Crisis & suicide prevention"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 348-2100",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
   }
 ]
