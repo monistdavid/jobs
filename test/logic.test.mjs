@@ -2,6 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { slugify } from '../src/logic.js';
+import { searchSites, filterSites, sortSites, computeStats, parseDeadline } from '../src/logic.js';
 
 test('slugify lowercases and hyphenates', () => {
   assert.equal(slugify('Colorado Therapy Collective'), 'colorado-therapy-collective');
@@ -14,4 +15,49 @@ test('slugify strips punctuation and trailing markers', () => {
 
 test('slugify collapses repeated separators', () => {
   assert.equal(slugify('A   B -- C'), 'a-b-c');
+});
+
+const SAMPLE = [
+  { id:'a', name:'Alpha Counseling', area:'Denver', paid:true,  populations:['Adults'],
+    services:['Individual therapy'], languages:['English'], description:'depth work', deadline:'2026-03-01' },
+  { id:'b', name:'Beta Center',      area:'Aurora', paid:false, populations:['Children'],
+    services:['Play therapy'], languages:['Spanish'], description:'bilingual', deadline:'Rolling' },
+  { id:'c', name:'Gamma Clinic',     area:'Denver', paid:true,  populations:['LGBTQ+'],
+    services:['Group therapy'], languages:['English'], description:'', deadline:'' },
+];
+
+test('searchSites matches name, population, service, description (case-insensitive)', () => {
+  assert.deepEqual(searchSites(SAMPLE, 'beta').map(s=>s.id), ['b']);
+  assert.deepEqual(searchSites(SAMPLE, 'CHILDREN').map(s=>s.id), ['b']);
+  assert.deepEqual(searchSites(SAMPLE, 'therapy').map(s=>s.id).sort(), ['a','b','c']);
+  assert.deepEqual(searchSites(SAMPLE, '').map(s=>s.id), ['a','b','c']); // empty -> all
+});
+
+test('filterSites applies area, paid, population, language filters (AND across categories)', () => {
+  assert.deepEqual(filterSites(SAMPLE, { area:'Denver' }).map(s=>s.id), ['a','c']);
+  assert.deepEqual(filterSites(SAMPLE, { paid:true }).map(s=>s.id), ['a','c']);
+  assert.deepEqual(filterSites(SAMPLE, { population:'Children' }).map(s=>s.id), ['b']);
+  assert.deepEqual(filterSites(SAMPLE, { language:'Spanish' }).map(s=>s.id), ['b']);
+  assert.deepEqual(filterSites(SAMPLE, { area:'Denver', paid:true }).map(s=>s.id), ['a','c']);
+  assert.deepEqual(filterSites(SAMPLE, {}).map(s=>s.id), ['a','b','c']); // no filters -> all
+});
+
+test('parseDeadline returns a Date for ISO, null otherwise', () => {
+  assert.equal(parseDeadline('2026-03-01').getTime(), new Date('2026-03-01').getTime());
+  assert.equal(parseDeadline('Rolling'), null);
+  assert.equal(parseDeadline(''), null);
+});
+
+test('sortSites by name, paid, deadline', () => {
+  assert.deepEqual(sortSites(SAMPLE,'name').map(s=>s.id), ['a','b','c']);
+  assert.deepEqual(sortSites(SAMPLE,'paid').map(s=>s.id), ['a','c','b']); // paid first, stable
+  // deadline: dated first (ascending), undated last
+  assert.deepEqual(sortSites(SAMPLE,'deadline').map(s=>s.id), ['a','b','c']);
+});
+
+test('computeStats counts totals', () => {
+  const stats = computeStats(SAMPLE, { a:{status:'Applied'} });
+  assert.equal(stats.total, 3);
+  assert.equal(stats.paid, 2);
+  assert.equal(stats.applied, 1);
 });
