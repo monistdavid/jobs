@@ -8,6 +8,34 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { slugify } from '../src/logic.js';
 
+// Cover-letter requirement verified by a dedicated Claude-in-Chrome pass over each
+// site's internship/application page. Keyed by site id; overrides any inline value.
+// Anything not listed stays at its inline `extras.coverLetter` or defaults to 'unknown'.
+const COVER_LETTER = {
+  'colorado-cbt': 'required',
+  'conifer-counseling': 'required',
+  'catalyss-counseling': 'required',
+  'mile-high-behavioral-healthcare': 'required',
+  'addiction-research-and-treatment-services-arts': 'required',
+  'university-of-denver-health-counseling-center': 'required',
+  'reaching-hope': 'required',
+  'the-mariposa-center': 'required',
+  'grace-counseling': 'required',
+  'wellpower': 'required',
+  'mental-health-partners': 'required',
+  'ardent-grove-foundation': 'required',
+  'original-path-counseling': 'required',
+  'boulder-emotional-wellness': 'required',
+  'individual-relationship-therapy-center': 'required',
+  'child-adolescent-counseling-of-denver': 'required',
+  'blue-channel-therapy': 'required',
+  'healing-pathways-collective': 'not-required',
+  'people-house': 'not-required',
+  'hope-mountain-behavioral-health': 'not-required',
+  'cornerstone-christian-counseling': 'not-required',
+  'benediction-counseling': 'not-required',
+};
+
 // [name, website, area, paid, compensationNote, phone, description, extras]
 // extras: { populations?, services?, languages?, siteTypes? }
 const RAW = [
@@ -257,7 +285,7 @@ function buildRecord([name, website, area, paid, compensationNote, phone, descri
     applyMethod: 'See website',
     contact: '',
     phone: phone || '',
-    coverLetter: extras.coverLetter || 'unknown', // 'required' | 'not-required' | 'unknown'
+    coverLetter: COVER_LETTER[slugify(name)] || extras.coverLetter || 'unknown', // 'required' | 'not-required' | 'unknown'
     hiresAfter: false,
     source: 'research',
   };
