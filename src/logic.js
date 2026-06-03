@@ -10,6 +10,46 @@ export function slugify(name) {
 const norm = (v) => String(v ?? '').toLowerCase();
 const arr  = (v) => Array.isArray(v) ? v : (v == null ? [] : [v]);
 
+// Curated, meaningful filter facets. Each tag is matched by keyword against the
+// relevant part of a site record, so messy free-text source data still maps to a
+// small, consistent, useful set of labels. `scope` chooses which fields to scan:
+//   'setting' -> site types + name (what kind of place it is)
+//   'focus'   -> name + populations + services + description (who/what it serves)
+export const TAG_GROUPS = [
+  { group: 'Setting', scope: 'setting', tags: [
+    { label: 'Community mental health', re: /community (mental|behavioral)|mental health center/ },
+    { label: 'Group practice',          re: /group practice|private practice/ },
+    { label: 'Training clinic',         re: /training (clinic|institute)/ },
+    { label: 'University',              re: /universit|college/ },
+    { label: 'Nonprofit',               re: /non-?profit/ },
+    { label: 'Hospital',                re: /hospital|medical center/ },
+  ]},
+  { group: 'Focus', scope: 'focus', tags: [
+    { label: 'Children & youth',   re: /child|youth|adolescent|teen|play therapy/ },
+    { label: 'Couples & families', re: /couple|famil|marriage/ },
+    { label: 'LGBTQ+',             re: /lgbtq|queer/ },
+    { label: 'Trauma',             re: /trauma/ },
+    { label: 'Substance use',      re: /substance|addiction|recovery|\bsud\b/ },
+    { label: 'Eating disorders',   re: /eating disorder|body image/ },
+    { label: 'Bilingual / Spanish',re: /spanish|bilingual|multilingual|latino|immigrant|refugee/ },
+  ]},
+];
+
+function scopeText(site, scope) {
+  if (scope === 'setting') return [site.name, ...arr(site.siteTypes)].map(norm).join(' • ');
+  return [site.name, site.description, ...arr(site.populations), ...arr(site.services)].map(norm).join(' • ');
+}
+
+// Derive the curated tag labels that apply to a site (across all groups).
+export function deriveTags(site) {
+  const out = [];
+  for (const g of TAG_GROUPS) {
+    const hay = scopeText(site, g.scope);
+    for (const t of g.tags) if (t.re.test(hay)) out.push(t.label);
+  }
+  return out;
+}
+
 export function searchSites(sites, query) {
   const q = norm(query).trim();
   if (!q) return sites.slice();
@@ -27,6 +67,7 @@ export function filterSites(sites, f = {}) {
     if (f.source && s.source !== f.source) return false;
     if (f.area && s.area !== f.area) return false;
     if (f.paid === true && s.paid !== true) return false;
+    if (f.tag && !arr(s.tags).includes(f.tag)) return false;
     if (f.population && !arr(s.populations).includes(f.population)) return false;
     if (f.language && !arr(s.languages).includes(f.language)) return false;
     return true;

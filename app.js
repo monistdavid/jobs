@@ -1,5 +1,5 @@
 // app.js
-import { searchSites, filterSites, sortSites, computeStats } from './src/logic.js';
+import { searchSites, filterSites, sortSites, computeStats, deriveTags, TAG_GROUPS } from './src/logic.js';
 import { makeStore, STATUSES, serialize, deserialize } from './src/tracking.js';
 
 const store = makeStore(window.localStorage);
@@ -34,14 +34,15 @@ function sourceTag(source) {
 function cardHTML(s) {
   const t = store.get(s.id);
   const pay = s.paid ? `<span class="pill pay">💰 ${esc(s.compensationNote || 'Paid')}</span>` : `<span class="pill">🤝 Unpaid</span>`;
-  const pops = (s.populations || []).slice(0,2).map((p) => `<span class="pill">👥 ${esc(p)}</span>`).join('');
+  const tags = (s.tags || []).slice(0,3).map((p) => `<span class="pill tag-pill">${esc(p)}</span>`).join('');
   const dl = s.deadline ? `⏳ ${esc(s.deadline)}` : '⏳ —';
+  const phone = s.phone ? `<span class="pill phone">📞 ${esc(s.phone)}</span>` : '';
   return `<article class="card${s.paid ? ' paid' : ''}" data-id="${esc(s.id)}" tabindex="0">
     <span class="accent"></span>
     <div class="top">
       <div class="title-wrap">${sourceTag(s.source)}<h3>${esc(s.name)}</h3></div>
       <span class="status ${statusClass(t.status)}">${esc(t.status)}</span></div>
-    <div class="meta"><span class="pill">📍 ${esc(s.area)}</span>${pay}${pops}</div>
+    <div class="meta"><span class="pill">📍 ${esc(s.area)}</span>${pay}${tags}${phone}</div>
     <p class="desc">${esc(s.description) || '<em>No description provided.</em>'}</p>
     <div class="foot"><span class="deadline">${dl}</span><span class="open">Details →</span></div>
   </article>`;
@@ -72,6 +73,7 @@ async function init() {
     const res = await fetch('data/sites.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     SITES = await res.json();
+    SITES.forEach((s) => { s.tags = deriveTags(s); });
   } catch (err) {
     el('grid').innerHTML =
       `<p class="empty">Couldn't load site data (${esc(err.message)}). ` +
@@ -85,25 +87,19 @@ async function init() {
 init();
 
 // Return a field's values ordered by how many sites use them (most common first).
-// Free-text survey answers produce many one-off values, so frequency ordering keeps
-// the filter chips meaningful (Adults, Children, Families…) instead of alphabetical noise.
-function topValues(key, limit) {
-  const counts = new Map();
-  SITES.forEach((s) => (s[key] || []).forEach((v) => counts.set(v, (counts.get(v) || 0) + 1)));
-  return [...counts.entries()]
-    .filter(([v, n]) => n >= 2 && v.length <= 24) // skip one-offs and long prose answers
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .slice(0, limit)
-    .map(([v]) => v);
+function groupLabel(text) {
+  const span = document.createElement('span');
+  span.className = 'chip-label';
+  span.textContent = text;
+  return span;
 }
 
 function renderFilters() {
+  const present = new Set(SITES.flatMap((s) => s.tags || []));
   const areas = [...new Set(SITES.map((s) => s.area))].sort();
-  const pops = topValues('populations', 8);
-  const langs = topValues('languages', 4).filter((l) => l && l !== 'English');
   const chips = [];
-  const noFilters = !state.filters.area && !state.filters.paid && !state.filters.source
-    && !state.filters.population && !state.filters.language;
+  const noFilters = !state.filters.area && !state.filters.paid
+    && !state.filters.source && !state.filters.tag;
   chips.push(chip('All', noFilters, () => { state.filters = {}; sync(); }));
   chips.push(chip('★ My list', state.filters.source === 'spreadsheet', () => {
     state.filters.source = state.filters.source === 'spreadsheet' ? undefined : 'spreadsheet'; sync(); }));
@@ -111,12 +107,20 @@ function renderFilters() {
     state.filters.source = state.filters.source === 'research' ? undefined : 'research'; sync(); }));
   chips.push(chip('💰 Paid only', state.filters.paid === true, () => {
     state.filters.paid = state.filters.paid ? undefined : true; sync(); }, 'terra'));
+
+  // Curated, meaningful tag groups (Setting / Focus) — only those present in the data.
+  for (const g of TAG_GROUPS) {
+    const tags = g.tags.map((t) => t.label).filter((l) => present.has(l));
+    if (!tags.length) continue;
+    chips.push(groupLabel(g.group));
+    tags.forEach((label) => chips.push(chip(label, state.filters.tag === label, () => {
+      state.filters.tag = state.filters.tag === label ? undefined : label; sync(); })));
+  }
+
+  chips.push(groupLabel('Area'));
   areas.forEach((a) => chips.push(chip(a, state.filters.area === a, () => {
     state.filters.area = state.filters.area === a ? undefined : a; sync(); })));
-  pops.forEach((p) => chips.push(chip(p, state.filters.population === p, () => {
-    state.filters.population = state.filters.population === p ? undefined : p; sync(); })));
-  langs.forEach((l) => chips.push(chip('🗣 ' + l, state.filters.language === l, () => {
-    state.filters.language = state.filters.language === l ? undefined : l; sync(); })));
+
   el('filters').replaceChildren(...chips);
 }
 
@@ -144,10 +148,11 @@ function openPanel(id) {
   if (!s) return;
   const t = store.get(id);
   const link = s.website ? `<a class="open" href="${esc(safeUrl(s.website))}" target="_blank" rel="noopener">Visit website ↗</a>` : '';
+  const tel = s.phone ? `<a class="open phone-link" href="tel:${esc(s.phone.replace(/[^0-9+]/g,''))}">📞 ${esc(s.phone)}</a>` : '';
   el('panel-body').innerHTML = `
     <button class="panel-close" id="panel-close" aria-label="Close">✕</button>
     <h2>${esc(s.name)}</h2>
-    ${link}
+    <div class="panel-links">${link}${tel}</div>
     <p class="desc-full">${esc(s.description)}</p>
     ${field('Source', s.source === 'research' ? 'New find (researched online)' : 'My list (from your spreadsheet)')}
     ${field('Area', s.area)}

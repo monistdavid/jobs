@@ -56,6 +56,12 @@ body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--ink);
 .pill{font-size:12px;background:#efe9da;color:var(--ink-soft);
   padding:4px 10px;border-radius:8px;display:inline-flex;gap:5px;align-items:center}
 .pill.pay{background:#eaf2ec;color:var(--forest-2);font-weight:500}
+.pill.phone{background:#eef1f4;color:#3a5566}
+.pill.tag-pill{background:#e7efe9;color:var(--forest-2)}
+.chip-label{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-soft);
+  align-self:center;padding:0 4px 0 8px;font-weight:600}
+.panel-links{display:flex;flex-wrap:wrap;gap:14px;margin:4px 0 6px}
+.phone-link{color:var(--terra)}
 .desc{font-size:13px;color:var(--ink-soft);line-height:1.5;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .foot{display:flex;justify-content:space-between;align-items:center;margin-top:14px;

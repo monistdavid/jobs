@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { slugify } from '../src/logic.js';
-import { searchSites, filterSites, sortSites, computeStats, parseDeadline } from '../src/logic.js';
+import { searchSites, filterSites, sortSites, computeStats, parseDeadline, deriveTags } from '../src/logic.js';
 
 test('slugify lowercases and hyphenates', () => {
   assert.equal(slugify('Colorado Therapy Collective'), 'colorado-therapy-collective');
@@ -43,6 +43,26 @@ test('filterSites applies area, paid, population, language filters (AND across c
   assert.deepEqual(filterSites(SAMPLE, { source:'research' }).map(s=>s.id), ['b']);
   assert.deepEqual(filterSites(SAMPLE, { area:'Denver', paid:true }).map(s=>s.id), ['a','c']);
   assert.deepEqual(filterSites(SAMPLE, {}).map(s=>s.id), ['a','b','c']); // no filters -> all
+});
+
+test('deriveTags maps records to curated setting + focus tags', () => {
+  const cmhc = deriveTags({ name:'WellPower', siteTypes:['Community mental health center'],
+    populations:['Children','Families'], services:[], description:'' });
+  assert.ok(cmhc.includes('Community mental health'));
+  assert.ok(cmhc.includes('Children & youth'));
+  assert.ok(cmhc.includes('Couples & families'));
+
+  const apdc = deriveTags({ name:'Asian Pacific Development Center', siteTypes:['Nonprofit / community'],
+    populations:['Immigrants & refugees'], services:[], description:'bilingual multicultural services' });
+  assert.ok(apdc.includes('Nonprofit'));
+  assert.ok(apdc.includes('Bilingual / Spanish'));
+
+  assert.deepEqual(deriveTags({ name:'x', siteTypes:[], populations:[], services:[], description:'' }), []);
+});
+
+test('filterSites filters by derived tag (s.tags)', () => {
+  const tagged = SAMPLE.map((s) => ({ ...s, tags: deriveTags(s) }));
+  assert.deepEqual(filterSites(tagged, { tag:'Children & youth' }).map(s=>s.id), ['b']); // Play therapy
 });
 
 test('parseDeadline returns a Date for ISO, null otherwise', () => {
