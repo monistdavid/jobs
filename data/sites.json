@@ -3320,5 +3320,182 @@
     "phone": "(303) 923-2920",
     "hiresAfter": false,
     "source": "research"
+  },
+  {
+    "id": "benediction-counseling",
+    "name": "Benediction Counseling",
+    "website": "https://www.benedictioncounseling.com",
+    "description": "Interfaith group practice offering trauma, grief, and anxiety therapy for teens, adults, couples, and families; trains student therapists in practicum and internship placements.",
+    "area": "Arvada",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Trauma",
+      "Couples",
+      "Families"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 372-4017",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "denver-metro-counseling",
+    "name": "Denver Metro Counseling",
+    "website": "https://denvermetrocounseling.com",
+    "description": "Private group practice providing trauma-informed therapy for individuals, teens, and families; regularly onboards master’s-level counseling interns.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Trauma",
+      "Adolescents",
+      "Substance use / addiction"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 809-3341",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "child-adolescent-counseling-of-denver",
+    "name": "Child & Adolescent Counseling of Denver",
+    "website": "https://denvercac.com",
+    "description": "Boutique group practice specializing in child, teen, and family therapy; accepts master’s-level clinical mental health counseling interns.",
+    "area": "Centennial",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents",
+      "Families"
+    ],
+    "services": [
+      "Play therapy",
+      "Family therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 817-3250",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "blue-channel-therapy",
+    "name": "Blue Channel Therapy",
+    "website": "https://www.bluechanneltherapy.org",
+    "description": "Nonprofit EMDR and neurofeedback provider serving ages 0–25 with offices in Arvada, Aurora, and Northglenn; actively trains MSW and MA clinical interns in trauma-informed child/family work, including Spanish-speaking and BIPOC communities.",
+    "area": "Arvada",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Children",
+      "Families",
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [
+      "Spanish-speaking"
+    ],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 975-8031",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "logos-healing-institute",
+    "name": "Logos Healing Institute",
+    "website": "https://www.logoshealinginstitute.org",
+    "description": "Nonprofit trauma-therapy organization offering the Logos Catalyst Internship for master’s-level students focused on complex and developmental trauma (EMDR, IFS, somatic approaches).",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / training clinic"
+    ],
+    "populations": [
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 577-5860",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "in-focus-counseling",
+    "name": "In Focus Counseling",
+    "website": "https://infocuscounselingdenver.com",
+    "description": "Outpatient group practice specializing in OCD, addiction, and co-occurring disorders; hand-selects master’s-level clinical interns from CU Denver and other programs.",
+    "area": "Lakewood",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Substance use / addiction",
+      "Adolescents",
+      "Couples"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 295-9522",
+    "hiresAfter": false,
+    "source": "research"
   }
 ]
