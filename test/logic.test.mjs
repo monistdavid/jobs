@@ -19,11 +19,11 @@ test('slugify collapses repeated separators', () => {
 
 const SAMPLE = [
   { id:'a', name:'Alpha Counseling', area:'Denver', paid:true,  populations:['Adults'],
-    services:['Individual therapy'], languages:['English'], description:'depth work', deadline:'2026-03-01' },
+    services:['Individual therapy'], languages:['English'], description:'depth work', deadline:'2026-03-01', source:'spreadsheet' },
   { id:'b', name:'Beta Center',      area:'Aurora', paid:false, populations:['Children'],
-    services:['Play therapy'], languages:['Spanish'], description:'bilingual', deadline:'Rolling' },
+    services:['Play therapy'], languages:['Spanish'], description:'bilingual', deadline:'Rolling', source:'research' },
   { id:'c', name:'Gamma Clinic',     area:'Denver', paid:true,  populations:['LGBTQ+'],
-    services:['Group therapy'], languages:['English'], description:'', deadline:'' },
+    services:['Group therapy'], languages:['English'], description:'', deadline:'', source:'spreadsheet' },
 ];
 
 test('searchSites matches name, population, service, description (case-insensitive)', () => {
@@ -39,6 +39,8 @@ test('filterSites applies area, paid, population, language filters (AND across c
   assert.deepEqual(filterSites(SAMPLE, { paid:true }).map(s=>s.id), ['a','c']);
   assert.deepEqual(filterSites(SAMPLE, { population:'Children' }).map(s=>s.id), ['b']);
   assert.deepEqual(filterSites(SAMPLE, { language:'Spanish' }).map(s=>s.id), ['b']);
+  assert.deepEqual(filterSites(SAMPLE, { source:'spreadsheet' }).map(s=>s.id), ['a','c']);
+  assert.deepEqual(filterSites(SAMPLE, { source:'research' }).map(s=>s.id), ['b']);
   assert.deepEqual(filterSites(SAMPLE, { area:'Denver', paid:true }).map(s=>s.id), ['a','c']);
   assert.deepEqual(filterSites(SAMPLE, {}).map(s=>s.id), ['a','b','c']); // no filters -> all
 });

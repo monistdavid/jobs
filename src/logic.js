@@ -24,6 +24,7 @@ export function searchSites(sites, query) {
 
 export function filterSites(sites, f = {}) {
   return sites.filter((s) => {
+    if (f.source && s.source !== f.source) return false;
     if (f.area && s.area !== f.area) return false;
     if (f.paid === true && s.paid !== true) return false;
     if (f.population && !arr(s.populations).includes(f.population)) return false;

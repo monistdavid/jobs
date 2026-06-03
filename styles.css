@@ -42,6 +42,11 @@ body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--ink);
 .card:hover{transform:translateY(-3px);box-shadow:0 12px 30px -14px rgba(31,77,63,.35)}
 .card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .card h3{font-family:'Fraunces',serif;font-size:18.5px;font-weight:600;line-height:1.2;padding-right:4px}
+.title-wrap{display:flex;flex-direction:column;gap:6px;min-width:0}
+.src{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;
+  padding:3px 8px;border-radius:6px;align-self:flex-start;white-space:nowrap}
+.src-list{background:#e7efe9;color:var(--forest)}
+.src-new{background:#f3e0d4;color:var(--terra)}
 .status{font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;
   padding:4px 9px;border-radius:20px;white-space:nowrap;flex-shrink:0}
 .s-applied{background:#e2efe8;color:var(--applied)}

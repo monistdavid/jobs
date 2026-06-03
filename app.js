@@ -25,6 +25,12 @@ function statusClass(status) {
     Offer:'s-applied', Rejected:'s-new', New:'s-new' }[status] || 's-new';
 }
 
+function sourceTag(source) {
+  return source === 'research'
+    ? '<span class="src src-new">✦ New find</span>'
+    : '<span class="src src-list">★ My list</span>';
+}
+
 function cardHTML(s) {
   const t = store.get(s.id);
   const pay = s.paid ? `<span class="pill pay">💰 ${esc(s.compensationNote || 'Paid')}</span>` : `<span class="pill">🤝 Unpaid</span>`;
@@ -32,7 +38,8 @@ function cardHTML(s) {
   const dl = s.deadline ? `⏳ ${esc(s.deadline)}` : '⏳ —';
   return `<article class="card${s.paid ? ' paid' : ''}" data-id="${esc(s.id)}" tabindex="0">
     <span class="accent"></span>
-    <div class="top"><h3>${esc(s.name)}</h3>
+    <div class="top">
+      <div class="title-wrap">${sourceTag(s.source)}<h3>${esc(s.name)}</h3></div>
       <span class="status ${statusClass(t.status)}">${esc(t.status)}</span></div>
     <div class="meta"><span class="pill">📍 ${esc(s.area)}</span>${pay}${pops}</div>
     <p class="desc">${esc(s.description) || '<em>No description provided.</em>'}</p>
@@ -95,9 +102,13 @@ function renderFilters() {
   const pops = topValues('populations', 8);
   const langs = topValues('languages', 4).filter((l) => l && l !== 'English');
   const chips = [];
-  const noFilters = !state.filters.area && !state.filters.paid
+  const noFilters = !state.filters.area && !state.filters.paid && !state.filters.source
     && !state.filters.population && !state.filters.language;
   chips.push(chip('All', noFilters, () => { state.filters = {}; sync(); }));
+  chips.push(chip('★ My list', state.filters.source === 'spreadsheet', () => {
+    state.filters.source = state.filters.source === 'spreadsheet' ? undefined : 'spreadsheet'; sync(); }));
+  chips.push(chip('✦ New finds', state.filters.source === 'research', () => {
+    state.filters.source = state.filters.source === 'research' ? undefined : 'research'; sync(); }));
   chips.push(chip('💰 Paid only', state.filters.paid === true, () => {
     state.filters.paid = state.filters.paid ? undefined : true; sync(); }, 'terra'));
   areas.forEach((a) => chips.push(chip(a, state.filters.area === a, () => {
@@ -138,6 +149,7 @@ function openPanel(id) {
     <h2>${esc(s.name)}</h2>
     ${link}
     <p class="desc-full">${esc(s.description)}</p>
+    ${field('Source', s.source === 'research' ? 'New find (researched online)' : 'My list (from your spreadsheet)')}
     ${field('Area', s.area)}
     ${field('Addresses', s.addresses)}
     ${field('Site type', s.siteTypes)}
