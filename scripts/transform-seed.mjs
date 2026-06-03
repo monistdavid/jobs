@@ -25,8 +25,12 @@ function parseCSV(text) {
   return rows;
 }
 
+// Categorical multi-select cells (populations, services, site types, etc.) are
+// comma/semicolon/newline separated — sometimes "Adults, Children", sometimes
+// "Adolescents,Adults" with no space — so split on any of those into clean,
+// individually-filterable values. (Addresses use splitLines below to stay whole.)
 const splitMulti = (v) =>
-  String(v || '').split(/[;\n]|,\s(?=[A-Z])/).map((s) => s.trim()).filter(Boolean);
+  String(v || '').split(/[;,\n]/).map((s) => s.trim()).filter(Boolean);
 
 // Addresses must stay whole — split only on newlines/semicolons, never on the
 // comma pattern (which would shred "190 E 9th Ave, Denver, CO" into fragments).

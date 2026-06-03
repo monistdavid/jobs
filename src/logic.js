@@ -16,7 +16,7 @@ export function searchSites(sites, query) {
   return sites.filter((s) => {
     const hay = [
       s.name, s.description, s.area,
-      ...arr(s.populations), ...arr(s.services), ...arr(s.siteTypes),
+      ...arr(s.populations), ...arr(s.services), ...arr(s.siteTypes), ...arr(s.languages),
     ].map(norm).join(' • ');
     return hay.includes(q);
   });

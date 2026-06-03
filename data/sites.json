@@ -12,13 +12,20 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults"
     ],
     "services": [
-      "Individual therapy ,Intakes,Consultation,Case management"
+      "Individual therapy",
+      "Intakes",
+      "Consultation",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -27,7 +34,8 @@
     ],
     "positionsCount": "3",
     "applicationRequirements": [
-      "Resume/CV,Interviews"
+      "Resume/CV",
+      "Interviews"
     ],
     "deadline": "5/1/2026, but earlier is better",
     "applyMethod": "Email application materials to:\n\nbetterlife.co.jobs@gmail.com\nHiring committee",
@@ -51,13 +59,24 @@
       "Group Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Assessments,Community outreach/workshops,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Assessments",
+      "Community outreach/workshops",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -66,7 +85,10 @@
     ],
     "positionsCount": "2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,References,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "References",
+      "Interviews"
     ],
     "deadline": "April 24th 2026",
     "applyMethod": "Complete an online application or submit documents via a portal:\n\nhttps://www.cairncounselingdenver.com/careers",
@@ -92,13 +114,28 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Career Counseling,Intakes,Consultation,Assessments,Community outreach/workshops,Case management"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Career Counseling",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Community outreach/workshops",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions),Telephonic counseling"
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
+      "Telephonic counseling"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -107,7 +144,11 @@
     ],
     "positionsCount": "8",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Letters of recommendation,References,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Letters of recommendation",
+      "References",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nBen Lawful, Internship Director, ben@crscounseling.com; please email directly with your resume/CV, cover letter, and letters of recommendation; \n\nPlease also complete the online application via our website: https://www.crscounseling.com/internships/\n\nAfter reviewing the application materials, we will set up a time for a virtual interview. We may set up additional interviews as needed to ensure proper fit with our practice and internship program. Before providing an official offer, applicants will be provided a link to complete a reference check.",
@@ -130,13 +171,29 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Career Counseling,Intakes,Consultation,Assessments,Community outreach/workshops,Case management ,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Career Counseling",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Community outreach/workshops",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions),Telephonic counseling"
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
+      "Telephonic counseling"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -145,7 +202,9 @@
     ],
     "positionsCount": "NA at the moment",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nYakitta.renfroe@c4vl.com",
@@ -167,13 +226,22 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Assessments,Case management"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -182,7 +250,10 @@
     ],
     "positionsCount": "2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,References,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "References",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to: \n\nOlivia Bennett: info@cwccolorado.com",
@@ -205,13 +276,20 @@
       "Community Health Center"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults"
     ],
     "services": [
-      "Individual therapy ,Intakes,Consultation,Case management"
+      "Individual therapy",
+      "Intakes",
+      "Consultation",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": true,
     "compensationNote": "Yes - stipend for all hours worked.",
@@ -220,7 +298,9 @@
     ],
     "positionsCount": "5-8",
     "applicationRequirements": [
-      "Resume/CV,References,Interviews"
+      "Resume/CV",
+      "References",
+      "Interviews"
     ],
     "deadline": "All applications need to be submitted by February 28th",
     "applyMethod": "Complete an online application or submit documents via a portal:\n\nAll applications can be submitted through our website. The link will go live at the end of January \n\nhttps://beyonddreamstherapy.coloradodream.org/internship-program",
@@ -241,14 +321,21 @@
       "Private Practice"
     ],
     "populations": [
-      "Adults,Older Adults,Couples,Families,",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families",
       "We do not see children or adolescents."
     ],
     "services": [
-      "Individual therapy ,Couples therapy,Intakes,Consultation"
+      "Individual therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": true,
     "compensationNote": "Yes - Monthly stipend",
@@ -258,7 +345,11 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,References,Interviews,Mock supervision"
+      "Resume/CV",
+      "Cover letter",
+      "References",
+      "Interviews",
+      "Mock supervision"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines) - dependent on available positions",
     "applyMethod": "Complete an online application or submit documents via a portal: \n \n https://www.coloradotherapycollective.com/careers",
@@ -279,13 +370,22 @@
       "Private Practice"
     ],
     "populations": [
-      "Adolescents,Adults,Older Adults,Couples,Families"
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Consultation"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -294,7 +394,11 @@
     ],
     "positionsCount": "4",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,References,Interviews, brief 3-5 minute introduction video"
+      "Resume/CV",
+      "Cover letter",
+      "References",
+      "Interviews",
+      "brief 3-5 minute introduction video"
     ],
     "deadline": "We begin accepting applications on January 1st and continue interviewing until all positions are filled",
     "applyMethod": "Email application materials to:\n\nconnectionscounseling5@gmail.com",
@@ -318,13 +422,25 @@
       "Group private practice with both therapists and med management providers"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Consultation,Case management ,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)",
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
       "Must do atleast one day in person in Greenwood Village",
       "CO"
     ],
@@ -335,7 +451,9 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nMeghan Epstein, LPC, ACS \nDirector of Clinical Operations\nmeghan@creeksidecollaborativetherapy.net",
@@ -357,13 +475,19 @@
       "Child Advocacy Center"
     ],
     "populations": [
-      "Children,Adolescents"
+      "Children",
+      "Adolescents"
     ],
     "services": [
-      "Individual therapy ,Intakes,Community outreach/workshops,Case management ,Crisis services"
+      "Individual therapy",
+      "Intakes",
+      "Community outreach/workshops",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -372,7 +496,9 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Complete an online application or submit documents via a portal:\n\nComplete application here and we will follow-up for resumes and cover letters: https://www.denvercac.org/opportunity/opportunity-3/",
@@ -394,10 +520,15 @@
       "Correctional Facility"
     ],
     "populations": [
-      "Adults,Older Adults"
+      "Adults",
+      "Older Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Consultation,Case management ,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Consultation",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
       "In-person counseling"
@@ -409,7 +540,9 @@
     ],
     "positionsCount": "unsure at this time, but a minimum of 4",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "January 23",
     "applyMethod": "Email application materials to:\n\nJennifer Gafford\nJennifer.gafford@dhha.org",
@@ -433,13 +566,24 @@
       "Group Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Career Counseling,Intakes,Consultation"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Career Counseling",
+      "Intakes",
+      "Consultation"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -448,7 +592,9 @@
     ],
     "positionsCount": "2-3",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to: \n\nNikkita Stonner, LPC\nnikkita@denvermhc.com",
@@ -473,10 +619,13 @@
       "Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": true,
     "compensationNote": "Yes - Students are paid a $5000 stipend over the length of their internship phase of training (students are not paid during practicum)",
@@ -485,7 +634,9 @@
     ],
     "positionsCount": "6-7 total",
     "applicationRequirements": [
-      "Resume/CV,Letters of recommendation,Interviews",
+      "Resume/CV",
+      "Letters of recommendation",
+      "Interviews",
       "Diversus Health application (can be found on our website at https://diversushealth.org/wp-content/uploads/2021/03/Diversus-Health-Volunteer-Internship-Application.pdf)"
     ],
     "deadline": "We accept applications in January and beyond; however, we do not begin interviews until February due to our focus on the doctoral internship selection process each January",
@@ -509,18 +660,26 @@
     ],
     "siteTypes": [
       "Private Practice",
-      "Group practice accepting Medicaid, private insurance, & self pay"
+      "Group practice accepting Medicaid",
+      "private insurance",
+      "& self pay"
     ],
     "populations": [
       "Children",
       "Early childhood & their families (kids 0-12)"
     ],
     "services": [
-      "Individual therapy ,Intakes,Consultation,Community outreach/workshops,Case management ,Play therapy",
+      "Individual therapy",
+      "Intakes",
+      "Consultation",
+      "Community outreach/workshops",
+      "Case management",
+      "Play therapy",
       "family therapy"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -529,7 +688,10 @@
     ],
     "positionsCount": "2-3",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,References,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "References",
+      "Interviews"
     ],
     "deadline": "We recommend getting applications in by 2/28/26, but we will continue accepting applications until we have filled our positions. **In some cases this will mean we fill our positions EARLIER",
     "applyMethod": "Email application materials to:\n\nBlair Skinner\nblair@earlychildhoodwellnessplace.com",
@@ -551,13 +713,24 @@
       "Outpatient therapy center"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Assessments,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Assessments",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -566,7 +739,9 @@
     ],
     "positionsCount": "4",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nHannah Popkin\nhpopkin@elliementalhealth.com",
@@ -589,14 +764,19 @@
       "Recommended to start at outpatient due to more staff and oversight"
     ],
     "siteTypes": [
-      "Substance Abuse Treatment Center,Residential Treatment Facility",
+      "Substance Abuse Treatment Center",
+      "Residential Treatment Facility",
       "Inpatient and Outpatient treatment. A Substance Use track and Mental Health track at outpatient."
     ],
     "populations": [
       "Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Assessments"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments"
     ],
     "deliveryModes": [
       "In-person counseling"
@@ -608,7 +788,11 @@
     ],
     "positionsCount": "2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,References,Interviews,Will ask for 3 references."
+      "Resume/CV",
+      "Cover letter",
+      "References",
+      "Interviews",
+      "Will ask for 3 references."
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nlwoodard@footprintstorecovery.com\nLaurie Woodard",
@@ -629,13 +813,28 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Consultation,Assessments,Community outreach/workshops,Case management ,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Community outreach/workshops",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions),Telephonic counseling"
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
+      "Telephonic counseling"
     ],
     "paid": true,
     "compensationNote": "Yes - During internship students are given a $500 a month stipend.",
@@ -644,7 +843,9 @@
     ],
     "positionsCount": "3 to 5",
     "applicationRequirements": [
-      "Resume/CV,References,Interviews,",
+      "Resume/CV",
+      "References",
+      "Interviews",
       "Application on the website www.forge-cc.com"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
@@ -669,13 +870,23 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Case management ,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions),Telephonic counseling"
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
+      "Telephonic counseling"
     ],
     "paid": true,
     "compensationNote": "Yes - stipend",
@@ -684,7 +895,8 @@
     ],
     "positionsCount": "2-3",
     "applicationRequirements": [
-      "Resume/CV,Interviews"
+      "Resume/CV",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n \n Meghan Rodriguez\n meghan@geektherapeutics.com\n \nWrite a quick hello and submit a resume/CV and Meghan will reach out to set up times to meet.",
@@ -706,13 +918,20 @@
       "Private Practice"
     ],
     "populations": [
-      "Adults,Older Adults"
+      "Adults",
+      "Older Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Consultation,Assessments"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -721,7 +940,9 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We are first come first serve when a position is open.",
     "applyMethod": "Email application materials to:\n\nMallory Gollick/ Belle Senese: admin@greencouchcounseling.com\n\nemail resume, if you are applying for prac, intern or both, dates of placement (start and end), your availability to be in our office (approx days/times).",
@@ -745,13 +966,23 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Couples therapy,Intakes,Consultation,Assessments,Community outreach/workshops"
+      "Individual therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Community outreach/workshops"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": true,
     "compensationNote": "Other: $300 professonal development stipend (for trainings, materials, etc.)",
@@ -760,7 +991,10 @@
     ],
     "positionsCount": "2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,References,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "References",
+      "Interviews"
     ],
     "deadline": "Friday, March 13",
     "applyMethod": "Email application materials to:\n\ndrgall@greenlakepsychology.com",
@@ -783,13 +1017,20 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Couples therapy"
+      "Individual therapy",
+      "Couples therapy"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -798,7 +1039,8 @@
     ],
     "positionsCount": "Depending on how many other interns we have at the same time/overlapping semesters but we try to keep a small # (1-4 interns total)",
     "applicationRequirements": [
-      "Resume/CV,Cover letter"
+      "Resume/CV",
+      "Cover letter"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to a designated contact person: \nAddy Ho\n info@greenmountaincounseling.com",
@@ -822,10 +1064,13 @@
       "Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Case management"
+      "Individual therapy",
+      "Group therapy",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -834,7 +1079,8 @@
     ],
     "positionsCount": "3",
     "applicationRequirements": [
-      "Resume/CV,Cover letter"
+      "Resume/CV",
+      "Cover letter"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\nMelissa Schomer\r\nmelissaschomer@myheartcounseling.com",
@@ -855,13 +1101,22 @@
       "Private Practice"
     ],
     "populations": [
-      "Adolescents,Adults,Couples,Families"
+      "Adolescents",
+      "Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Career Counseling,Intakes,Community outreach/workshops"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Career Counseling",
+      "Intakes",
+      "Community outreach/workshops"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -870,7 +1125,9 @@
     ],
     "positionsCount": "3",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "February 1, 2026",
     "applyMethod": "Email application materials to:\n\nRae Stout, rae@iamclinic.org. \n\nPlease put \"Graduate Student Intern Application\" in the subject. Include a statement of interest/cover letter highlighting interest in working with the LGBTQIA+ community and any known school commitments (class schedule, etc).",
@@ -893,13 +1150,18 @@
       "Private Practice"
     ],
     "populations": [
-      "Adolescents,Adults"
+      "Adolescents",
+      "Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)",
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
       "Limited in-person sessions on Tuesdays only",
       "otherwise virtual"
     ],
@@ -910,9 +1172,13 @@
     ],
     "positionsCount": "3",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Letters of recommendation,References",
+      "Resume/CV",
+      "Cover letter",
+      "Letters of recommendation",
+      "References",
       "Our application form allows for a Cover Letter",
-      "Written Reponses, or a Video Submission with your resume and either letters of recommendation or references.",
+      "Written Reponses",
+      "or a Video Submission with your resume and either letters of recommendation or references.",
       "We prefer receiving our applications via our application form at:",
       "https://interfaithbridge.com/apply"
     ],
@@ -938,7 +1204,11 @@
       "Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Case management ,Crisis services ,Milieu management"
+      "Individual therapy",
+      "Group therapy",
+      "Case management",
+      "Crisis services",
+      "Milieu management"
     ],
     "deliveryModes": [
       "In-person counseling"
@@ -950,7 +1220,9 @@
     ],
     "positionsCount": "Karis Community offers 3 total internship positions across multiple universities/schools each year.",
     "applicationRequirements": [
-      "Resume/CV,References,Interviews"
+      "Resume/CV",
+      "References",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to: \n\nAnnie Wharton; annie@kariscommunity.org",
@@ -971,13 +1243,24 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Community outreach/workshops"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Community outreach/workshops"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions),Telephonic counseling"
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
+      "Telephonic counseling"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -986,7 +1269,9 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,References"
+      "Resume/CV",
+      "Cover letter",
+      "References"
     ],
     "deadline": "We like to know who our interns will be by May 1st.",
     "applyMethod": "Email application materials to:\n\nLisa Patterson\nlisamariepatterson@comcast.net",
@@ -1007,13 +1292,24 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Consultation,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1022,7 +1318,9 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Letters of recommendation,Interview"
+      "Resume/CV",
+      "Letters of recommendation",
+      "Interview"
     ],
     "deadline": "We would like students to be ready to go about a month before start date but can also be flexible at times.",
     "applyMethod": "Email application materials to a designated contact person:\nCeleste Gilmore\ncg@knowlespsychology.com\"",
@@ -1044,13 +1342,18 @@
       "Private Practice"
     ],
     "populations": [
-      "Adolescents,Adults"
+      "Adolescents",
+      "Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Assessments"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Assessments"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1059,7 +1362,8 @@
     ],
     "positionsCount": "2",
     "applicationRequirements": [
-      "Resume/CV,Interviews"
+      "Resume/CV",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nMonica Ayala\ninfo@miradorcounseling.com",
@@ -1082,13 +1386,22 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1097,7 +1410,8 @@
     ],
     "positionsCount": "5-10",
     "applicationRequirements": [
-      "Resume/CV,Interviews",
+      "Resume/CV",
+      "Interviews",
       "Application through website- https://momentum2021.surveysparrow.com/s/final-internship-application/tt-qxyW4"
     ],
     "deadline": "Apply ASAP",
@@ -1122,7 +1436,13 @@
       "Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Assessments,Case management ,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
       "In-person counseling"
@@ -1134,7 +1454,8 @@
     ],
     "positionsCount": "2",
     "applicationRequirements": [
-      "Resume/CV,Interviews"
+      "Resume/CV",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nChris Dow\ncdow@monarchmentalhealth.org",
@@ -1156,18 +1477,35 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families",
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families",
       "People at-risk for homelessness.",
-      "people with trauma, grief, anxiety, depression or other behavioral health needs.",
+      "people with trauma",
+      "grief",
+      "anxiety",
+      "depression or other behavioral health needs.",
       "Children at-risk for out-of-home placement",
       "People who are trans or part of the LGBTQ+ communities.",
       "Many more underserved populations."
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Consultation,Assessments,Case management ,Treatment Planning"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Case management",
+      "Treatment Planning"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions),Telephonic counseling"
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
+      "Telephonic counseling"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1176,7 +1514,8 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Interviews",
+      "Resume/CV",
+      "Interviews",
       "The interview is casual in nature and an opportunity to share more about our organization and hear about the learning goals for the intern."
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
@@ -1200,13 +1539,23 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Assessments,Case management"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": true,
     "compensationNote": "Yes - Monthly set stipend",
@@ -1215,7 +1564,9 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nCourtney DeMers\ncourtney@neurobloomcolorado.com",
@@ -1238,13 +1589,26 @@
       "Residential Treatment Facility"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Intakes,Consultation,Assessments,Case management ,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1253,7 +1617,9 @@
     ],
     "positionsCount": "4",
     "applicationRequirements": [
-      "Resume/CV,References,Interviews"
+      "Resume/CV",
+      "References",
+      "Interviews"
     ],
     "deadline": "Application will be open February 15-May 15.",
     "applyMethod": "Complete an online application or submit documents via a portal:\n\nGo to www.northrange.org and select Careers then search open positions, once you get to that screen filter by position type and select internship.",
@@ -1275,13 +1641,24 @@
       "Community Health Center"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Assessments,Community outreach/workshops,Case management"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Assessments",
+      "Community outreach/workshops",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1290,13 +1667,22 @@
     ],
     "positionsCount": "6",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews",
-      "About our application process, please email one of the listed options that explains the reason why you chose to apply for a placement at Servicios de la Raza:",
+      "Resume/CV",
       "Cover letter",
-      "Art piece (painting, sculpture, drawing, etc.)",
+      "Interviews",
+      "About our application process",
+      "please email one of the listed options that explains the reason why you chose to apply for a placement at Servicios de la Raza:",
+      "Cover letter",
+      "Art piece (painting",
+      "sculpture",
+      "drawing",
+      "etc.)",
       "Video",
       "Picture",
-      "You are free to submit any of the above options only if you, the student, do the work. Please do not use online stock items. Get creative and channel your inner …  and please include a detailed explanation of the piece you chose, as this will help us understand your motivation and suitability for the placement."
+      "You are free to submit any of the above options only if you",
+      "the student",
+      "do the work. Please do not use online stock items. Get creative and channel your inner …  and please include a detailed explanation of the piece you chose",
+      "as this will help us understand your motivation and suitability for the placement."
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n \nbhinternship@serviciosdelaraza.org\nVera Kirkconnell Godoy, MA, LPC, NCC\nPronouns: She/Her/Hers/ Ella",
@@ -1319,13 +1705,24 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Couples,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Couples therapy,Career Counseling,Intakes,Community outreach/workshops"
+      "Individual therapy",
+      "Group therapy",
+      "Couples therapy",
+      "Career Counseling",
+      "Intakes",
+      "Community outreach/workshops"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1334,7 +1731,9 @@
     ],
     "positionsCount": "2-3",
     "applicationRequirements": [
-      "Resume/CV,References,Interviews"
+      "Resume/CV",
+      "References",
+      "Interviews"
     ],
     "deadline": "We have a specific application deadline:\n May 8, 2026",
     "applyMethod": "Email application materials to a designated contact person:\n \n Demi Stein\n demi@steincounselingllc.com",
@@ -1356,10 +1755,17 @@
       "Day Treatment Facility"
     ],
     "populations": [
-      "Children,Adolescents,Families"
+      "Children",
+      "Adolescents",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Assessments,Case management ,Crisis services"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Assessments",
+      "Case management",
+      "Crisis services"
     ],
     "deliveryModes": [
       "In-person counseling"
@@ -1371,7 +1777,9 @@
     ],
     "positionsCount": "4",
     "applicationRequirements": [
-      "Resume/CV,References,Interviews"
+      "Resume/CV",
+      "References",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Complete an online application or submit documents via a portal:\n\nNEW LINK\n\nhttps://tennysoncenterforchildrenatcoloradochristianhome.applytojob.com/apply/posirb3DIC/Clinical-Mental-Health-Internship-Masters-Level",
@@ -1393,13 +1801,21 @@
       "Private Practice"
     ],
     "populations": [
-      "Adolescents,Adults,Older Adults,Couples,Families,LGBTQ+"
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Couples",
+      "Families",
+      "LGBTQ+"
     ],
     "services": [
-      "Individual therapy ,Couples therapy,Family therapy"
+      "Individual therapy",
+      "Couples therapy",
+      "Family therapy"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1408,7 +1824,8 @@
     ],
     "positionsCount": "1",
     "applicationRequirements": [
-      "Resume/CV,Cover letter",
+      "Resume/CV",
+      "Cover letter",
       "Answers to screening questions:  https://thrivefamilyservices.com/internship/"
     ],
     "deadline": "Earlier applications are always encouraged as we start to receive applicants and conduct interviews beginning in early winter.",
@@ -1430,14 +1847,24 @@
       "Therapy Center/Agency"
     ],
     "populations": [
-      "Adolescents,Adults,Older Adults,Courted ordered clients",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Courted ordered clients",
       "medical injured patients"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Assessments,Case management"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions),Telephonic counseling"
+      "In-person counseling",
+      "Telehealth (virtual sessions)",
+      "Telephonic counseling"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1446,7 +1873,9 @@
     ],
     "positionsCount": "1-3",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nSusie Love\nsusieL0122@msn.com",
@@ -1469,13 +1898,21 @@
       "Therapy clinic"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Assessments"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": true,
     "compensationNote": "Yes - Hourly rate for all therapy sessions and intake screeners that interns conduct on their own.",
@@ -1484,7 +1921,8 @@
     ],
     "positionsCount": "1-2",
     "applicationRequirements": [
-      "Resume/CV,Cover letter"
+      "Resume/CV",
+      "Cover letter"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nRachel O'Connor\nrachel@vitalcare.us",
@@ -1510,13 +1948,24 @@
       "Private Practice"
     ],
     "populations": [
-      "Children,Adolescents,Adults,Older Adults,Families"
+      "Children",
+      "Adolescents",
+      "Adults",
+      "Older Adults",
+      "Families"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Assessments,Community outreach/workshops,Case management"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Community outreach/workshops",
+      "Case management"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1525,7 +1974,10 @@
     ],
     "positionsCount": "8",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Letters of recommendation, video introduction"
+      "Resume/CV",
+      "Cover letter",
+      "Letters of recommendation",
+      "video introduction"
     ],
     "deadline": "Jan 1st-Jan 18th for June start earlier the better",
     "applyMethod": "Email application materials to:\n\napplications@wholeconnection.org\nalso check the website for any form that might be available to fill out the applications through",
@@ -1546,15 +1998,23 @@
       "Non-profit"
     ],
     "populations": [
-      "Adults,Older Adults,Veterans",
+      "Adults",
+      "Older Adults",
+      "Veterans",
       "Justice-involved veterans",
       "Dependents of veterans"
     ],
     "services": [
-      "Individual therapy ,Group therapy ,Intakes,Consultation,Assessments,Community outreach/workshops"
+      "Individual therapy",
+      "Group therapy",
+      "Intakes",
+      "Consultation",
+      "Assessments",
+      "Community outreach/workshops"
     ],
     "deliveryModes": [
-      "In-person counseling,Telehealth (virtual sessions)"
+      "In-person counseling",
+      "Telehealth (virtual sessions)"
     ],
     "paid": false,
     "compensationNote": "No",
@@ -1563,7 +2023,9 @@
     ],
     "positionsCount": "1",
     "applicationRequirements": [
-      "Resume/CV,Cover letter,Interviews"
+      "Resume/CV",
+      "Cover letter",
+      "Interviews"
     ],
     "deadline": "We accept applications on a rolling basis (no specific deadlines)",
     "applyMethod": "Email application materials to:\n\nTegam Rowley\ntegan@thewhp.org",

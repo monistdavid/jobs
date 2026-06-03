@@ -10,6 +10,16 @@ const el = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) =>
   ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));
 
+// Normalize a site website into a safe, absolute external URL. Many seed records
+// store a bare domain ("example.com") which would otherwise resolve as a relative
+// link; anything that isn't a plain http(s) URL is prefixed with https://, which
+// also neutralizes javascript:/data: schemes.
+function safeUrl(raw) {
+  const v = String(raw ?? '').trim();
+  if (!v) return '';
+  return /^https?:\/\//i.test(v) ? v : 'https://' + v.replace(/^\/+/, '');
+}
+
 function statusClass(status) {
   return { Applied:'s-applied', Interested:'s-interested', Interviewing:'s-applied',
     Offer:'s-applied', Rejected:'s-new', New:'s-new' }[status] || 's-new';
@@ -58,18 +68,27 @@ async function init() {
 }
 init();
 
-function uniqueValues(key) {
-  const set = new Set();
-  SITES.forEach((s) => (s[key] || []).forEach((v) => set.add(v)));
-  return [...set].sort();
+// Return a field's values ordered by how many sites use them (most common first).
+// Free-text survey answers produce many one-off values, so frequency ordering keeps
+// the filter chips meaningful (Adults, Children, Families…) instead of alphabetical noise.
+function topValues(key, limit) {
+  const counts = new Map();
+  SITES.forEach((s) => (s[key] || []).forEach((v) => counts.set(v, (counts.get(v) || 0) + 1)));
+  return [...counts.entries()]
+    .filter(([v, n]) => n >= 2 && v.length <= 24) // skip one-offs and long prose answers
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, limit)
+    .map(([v]) => v);
 }
 
 function renderFilters() {
   const areas = [...new Set(SITES.map((s) => s.area))].sort();
-  const pops = uniqueValues('populations').slice(0, 8);
-  const langs = uniqueValues('languages').filter((l) => l && l !== 'English').slice(0, 4);
+  const pops = topValues('populations', 8);
+  const langs = topValues('languages', 4).filter((l) => l && l !== 'English');
   const chips = [];
-  chips.push(chip('All', !state.filters.area && !state.filters.paid, () => { state.filters = {}; sync(); }));
+  const noFilters = !state.filters.area && !state.filters.paid
+    && !state.filters.population && !state.filters.language;
+  chips.push(chip('All', noFilters, () => { state.filters = {}; sync(); }));
   chips.push(chip('💰 Paid only', state.filters.paid === true, () => {
     state.filters.paid = state.filters.paid ? undefined : true; sync(); }, 'terra'));
   areas.forEach((a) => chips.push(chip(a, state.filters.area === a, () => {
@@ -104,7 +123,7 @@ function openPanel(id) {
   const s = SITES.find((x) => x.id === id);
   if (!s) return;
   const t = store.get(id);
-  const link = s.website ? `<a class="open" href="${esc(s.website)}" target="_blank" rel="noopener">Visit website ↗</a>` : '';
+  const link = s.website ? `<a class="open" href="${esc(safeUrl(s.website))}" target="_blank" rel="noopener">Visit website ↗</a>` : '';
   el('panel-body').innerHTML = `
     <button class="panel-close" id="panel-close" aria-label="Close">✕</button>
     <h2>${esc(s.name)}</h2>
@@ -131,6 +150,8 @@ function openPanel(id) {
     <div class="label" style="margin-top:12px">My notes</div>
     <textarea class="notes-box" id="notes-box" placeholder="Application notes…">${esc(t.notes)}</textarea>`;
   el('panel').hidden = false;
+  el('panel-body').querySelector('h2').id = 'panel-title';
+  el('panel-body').setAttribute('aria-labelledby', 'panel-title');
 
   const persist = () => {
     store.set(id, { status: el('status-select').value, notes: el('notes-box').value });
@@ -149,7 +170,10 @@ el('grid').addEventListener('click', (e) => {
   const card = e.target.closest('.card'); if (card) openPanel(card.dataset.id);
 });
 el('grid').addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') { const card = e.target.closest('.card'); if (card) openPanel(card.dataset.id); }
+  if (e.key === 'Enter' || e.key === ' ') {
+    const card = e.target.closest('.card');
+    if (card) { e.preventDefault(); openPanel(card.dataset.id); }
+  }
 });
 
 el('export-btn').addEventListener('click', () => {

@@ -30,6 +30,7 @@ test('searchSites matches name, population, service, description (case-insensiti
   assert.deepEqual(searchSites(SAMPLE, 'beta').map(s=>s.id), ['b']);
   assert.deepEqual(searchSites(SAMPLE, 'CHILDREN').map(s=>s.id), ['b']);
   assert.deepEqual(searchSites(SAMPLE, 'therapy').map(s=>s.id).sort(), ['a','b','c']);
+  assert.deepEqual(searchSites(SAMPLE, 'spanish').map(s=>s.id), ['b']); // matches languages
   assert.deepEqual(searchSites(SAMPLE, '').map(s=>s.id), ['a','b','c']); // empty -> all
 });
 
