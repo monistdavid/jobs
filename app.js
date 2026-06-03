@@ -53,9 +53,46 @@ function renderGrid() {
 async function init() {
   SITES = await (await fetch('data/sites.json')).json();
   renderStats();
+  renderFilters();
   renderGrid();
 }
 init();
+
+function uniqueValues(key) {
+  const set = new Set();
+  SITES.forEach((s) => (s[key] || []).forEach((v) => set.add(v)));
+  return [...set].sort();
+}
+
+function renderFilters() {
+  const areas = [...new Set(SITES.map((s) => s.area))].sort();
+  const pops = uniqueValues('populations').slice(0, 8);
+  const langs = uniqueValues('languages').filter((l) => l && l !== 'English').slice(0, 4);
+  const chips = [];
+  chips.push(chip('All', !state.filters.area && !state.filters.paid, () => { state.filters = {}; sync(); }));
+  chips.push(chip('💰 Paid only', state.filters.paid === true, () => {
+    state.filters.paid = state.filters.paid ? undefined : true; sync(); }, 'terra'));
+  areas.forEach((a) => chips.push(chip(a, state.filters.area === a, () => {
+    state.filters.area = state.filters.area === a ? undefined : a; sync(); })));
+  pops.forEach((p) => chips.push(chip(p, state.filters.population === p, () => {
+    state.filters.population = state.filters.population === p ? undefined : p; sync(); })));
+  langs.forEach((l) => chips.push(chip('🗣 ' + l, state.filters.language === l, () => {
+    state.filters.language = state.filters.language === l ? undefined : l; sync(); })));
+  el('filters').replaceChildren(...chips);
+}
+
+function chip(label, on, onClick, extra='') {
+  const b = document.createElement('button');
+  b.className = `chip ${extra} ${on ? 'on' : ''}`.trim();
+  b.textContent = label;
+  b.addEventListener('click', onClick);
+  return b;
+}
+
+function sync() { renderFilters(); renderGrid(); }
+
+el('search').addEventListener('input', (e) => { state.query = e.target.value; renderGrid(); });
+el('sort').addEventListener('change', (e) => { state.sort = e.target.value; renderGrid(); });
 
 // exported for later tasks
 window.__app = { renderGrid, renderStats, state, get SITES(){ return SITES; }, store };
