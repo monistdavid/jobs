@@ -1570,5 +1570,1305 @@
     "contact": "Tegan Rowley\ntegan@thewhp.org",
     "hiresAfter": true,
     "source": "spreadsheet"
+  },
+  {
+    "id": "colorado-cbt",
+    "name": "Colorado CBT",
+    "website": "https://cocbt.com",
+    "description": "Established private practice offering masters practicum, internship, and post-masters (LPCC) training and supervision; trainees provide individual therapy to adult clients.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group/private practice"
+    ],
+    "populations": [
+      "Adults"
+    ],
+    "services": [
+      "Individual therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "breathe-counseling",
+    "name": "Breathe Counseling",
+    "website": "https://breathecounseling.com",
+    "description": "Graduate practicum and internship program meeting CACREP requirements; many interns stay on to complete licensure hours.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "peak-to-peak-counseling",
+    "name": "Peak to Peak Counseling",
+    "website": "https://peaktopeakcounseling.com",
+    "description": "Community Internship Program providing internship and practicum opportunities for Colorado advanced-degree students.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "conifer-counseling",
+    "name": "Conifer Counseling",
+    "website": "https://www.conifercounseling.com",
+    "description": "Internship program for masters-level students; accepts students beginning foundational or practicum placements with flexible training timelines.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "ignite-counseling-colorado",
+    "name": "Ignite Counseling Colorado",
+    "website": "https://ignitecounselingcolorado.com",
+    "description": "Comprehensive practicum and internship experience with hands-on clinical training; practicum-to-internship pathway.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "my-denver-therapy",
+    "name": "My Denver Therapy",
+    "website": "https://mydenvertherapy.com",
+    "description": "Group practice that hosts counseling practicum and internship students; receives 100+ applicants per year.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "maria-droste-counseling-center",
+    "name": "Maria Droste Counseling Center",
+    "website": "https://www.mariadroste.org",
+    "description": "Nonprofit outpatient counseling center; internship positions involve outpatient clients plus community-based placements.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Adults"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "catalyss-counseling",
+    "name": "Catalyss Counseling",
+    "website": "https://www.catalysscounseling.com",
+    "description": "Masters-level practicum and internship doing individual and group counseling; accepts Counseling and Social Work interns three times a year.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [
+      "Individual therapy",
+      "Group therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "mile-high-behavioral-healthcare",
+    "name": "Mile High Behavioral Healthcare",
+    "website": "https://www.milehighbehavioralhealthcare.org",
+    "description": "Community behavioral health organization that accepts clinical and human-services interns partnering with staff.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Community behavioral health"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "addiction-research-and-treatment-services-arts",
+    "name": "Addiction Research and Treatment Services (ARTS)",
+    "website": "https://www.artstreatment.com",
+    "description": "University of Colorado program providing paid and unpaid clinical internships for graduate students in social work, psychology, counseling, or addiction; clients have substance use disorder histories.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Community behavioral health"
+    ],
+    "populations": [
+      "Substance use / addiction"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": true,
+    "compensationNote": "Both paid and unpaid clinical internship positions",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "denver-family-therapy-center",
+    "name": "Denver Family Therapy Center",
+    "website": "https://www.denverfamilytherapycenter.com",
+    "description": "Family-therapy practice offering careers and internships for clinicians in training.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Families",
+      "Couples"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "healing-pathways-collective",
+    "name": "Healing Pathways Collective",
+    "website": "https://healingpathwayscollective.com",
+    "description": "Psychology internship and master’s training program aimed at producing competent therapists with general clinical skills.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "people-house",
+    "name": "People House",
+    "website": "https://peoplehouse.org",
+    "description": "Capitol Hill nonprofit offering affordable counseling via interns; intake three times per year (Jan/May/Sep); somatic and holistic orientations.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Adults"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "university-of-denver-health-counseling-center",
+    "name": "University of Denver Health & Counseling Center",
+    "website": "https://studentaffairs.du.edu/health-counseling-center",
+    "description": "University counseling center training six to eight graduate trainees/practicum students plus interns; crisis-intervention training.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "University counseling center"
+    ],
+    "populations": [
+      "College students"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "mountain-vista-psychology",
+    "name": "Mountain Vista Psychology",
+    "website": "https://www.mountainvistapsychology.com",
+    "description": "Practice taking interns across Englewood, Highlands Ranch, and Aurora; interns complete formal neurofeedback training before seeing clients.",
+    "area": "Englewood",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "reaching-hope",
+    "name": "Reaching HOPE",
+    "website": "https://www.reachinghope.org",
+    "description": "Trauma-focused nonprofit offering 1+ year supervised practicum/intern positions in trauma and crisis therapy with children, teens, parents, and families.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Children",
+      "Families",
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "the-mariposa-center",
+    "name": "The Mariposa Center",
+    "website": "https://www.mariposacenterdenver.com",
+    "description": "Supervised, hands-on 12-month clinical counseling internship for graduate students.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "denver-health-behavioral-health-services",
+    "name": "Denver Health Behavioral Health Services",
+    "website": "https://www.denverhealth.org",
+    "description": "Safety-net hospital system behavioral-health services; runs a doctoral psychology internship and hosts trainees across medical settings.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Hospital / medical center"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "lifestance-health",
+    "name": "LifeStance Health",
+    "website": "https://lifestance.com",
+    "description": "Large multi-site outpatient group with practicum and post-doc training directors across Denver-metro locations.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "aurora-counseling",
+    "name": "Aurora Counseling",
+    "website": "https://www.auroracounseling.com",
+    "description": "Group practice serving as a therapist-intern practicum site in the Aurora/Lakewood area.",
+    "area": "Aurora",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "grace-counseling",
+    "name": "Grace Counseling",
+    "website": "https://www.gracecounseling.com",
+    "description": "Counseling agency serving the Denver/Aurora area; practicum site for LPC, MFT, and LCSW students needing clinical hours.",
+    "area": "Aurora",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "code-4-counseling",
+    "name": "Code-4 Counseling",
+    "website": "https://code4counseling.com",
+    "description": "Practice specializing in first responders and law enforcement; uses intern therapists.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "First responders"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "wellpower",
+    "name": "WellPower",
+    "website": "https://www.wellpower.org/student-placements",
+    "description": "Colorado’s largest community mental health center (formerly Mental Health Center of Denver); student placements for community-college, undergrad, masters, and doctoral students including child/family and infant mental health.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Community mental health center"
+    ],
+    "populations": [
+      "Adults",
+      "Children",
+      "Families"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "jefferson-center-for-mental-health",
+    "name": "Jefferson Center for Mental Health",
+    "website": "https://www.jcmh.org",
+    "description": "Jefferson County community mental health center; clinical internships open to doctoral and second-year graduate counseling, social work, or psychology students.",
+    "area": "Lakewood",
+    "addresses": [],
+    "siteTypes": [
+      "Community mental health center"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "aurora-mental-health-recovery",
+    "name": "Aurora Mental Health & Recovery",
+    "website": "https://www.auroramhr.org",
+    "description": "Community mental health center offering part-time non-paid placements for graduate and undergraduate students; includes an Asian Pacific Development Center track.",
+    "area": "Aurora",
+    "addresses": [],
+    "siteTypes": [
+      "Community mental health center"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "allhealth-network",
+    "name": "AllHealth Network",
+    "website": "https://www.allhealthnetwork.org",
+    "description": "Arapahoe County community mental health network; masters second-year interns across outpatient and FACT (forensic assertive community treatment) teams.",
+    "area": "Littleton",
+    "addresses": [],
+    "siteTypes": [
+      "Community mental health center"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "community-reach-center",
+    "name": "Community Reach Center",
+    "website": "https://www.communityreachcenter.org",
+    "description": "Adams County community mental health center hosting graduate intern/practicum placements across north-metro locations.",
+    "area": "Thornton",
+    "addresses": [],
+    "siteTypes": [
+      "Community mental health center"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "mental-health-partners",
+    "name": "Mental Health Partners",
+    "website": "https://www.mhpcolorado.org",
+    "description": "Boulder and Broomfield county community mental health center offering student practicum and intern placements.",
+    "area": "Boulder",
+    "addresses": [],
+    "siteTypes": [
+      "Community mental health center"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "ardent-grove-foundation",
+    "name": "Ardent Grove Foundation",
+    "website": "https://ardentgrove.org",
+    "description": "Nonprofit mental health and training clinic providing low-cost, trauma-informed therapy; postdoctoral, internship, and 11-month practicum training tracks.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / training clinic"
+    ],
+    "populations": [
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "embrace-strength-counseling",
+    "name": "Embrace Strength Counseling",
+    "website": "https://www.embracestrengthcounseling.com",
+    "description": "Practice specializing in eating disorders and body image; hosts counseling interns.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Eating disorders"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "family-first-counseling",
+    "name": "Family First Counseling",
+    "website": "https://familyfirstcounseling.co",
+    "description": "Eating-disorder and family therapy practice with practicum students and CMHC interns on the team.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Eating disorders",
+      "Families"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "original-path-counseling",
+    "name": "Original Path Counseling",
+    "website": "https://denvercounseling.com",
+    "description": "Denver group practice whose clinical team includes counseling interns.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "boulder-emotional-wellness",
+    "name": "Boulder Emotional Wellness",
+    "website": "https://www.boulderemotionalwellness.org",
+    "description": "Community counseling training clinic; trainees conduct intakes plus individual and couples counseling typical of a community setting.",
+    "area": "Boulder",
+    "addresses": [],
+    "siteTypes": [
+      "Training clinic"
+    ],
+    "populations": [],
+    "services": [
+      "Individual therapy",
+      "Couples therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "naropa-community-counseling",
+    "name": "Naropa Community Counseling",
+    "website": "https://www.naropa.edu/academics/community-counseling",
+    "description": "Naropa University’s contemplative, sliding-scale community training clinic providing supervised counseling by graduate trainees.",
+    "area": "Boulder",
+    "addresses": [],
+    "siteTypes": [
+      "Training clinic"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "noeticus-counseling-center-and-training-institute",
+    "name": "Noeticus Counseling Center and Training Institute",
+    "website": "https://www.noeticus.org",
+    "description": "Established Denver training institute with a somatically-informed intern team; sliding-scale services and addiction-counselor clinical training.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Training clinic"
+    ],
+    "populations": [
+      "Adults",
+      "Substance use / addiction"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "play-therapy-institute-of-colorado",
+    "name": "Play Therapy Institute of Colorado",
+    "website": "https://www.playtherapyinstitute.org",
+    "description": "Child and play-therapy focused training organization that hosts counseling interns.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Training clinic"
+    ],
+    "populations": [
+      "Children"
+    ],
+    "services": [
+      "Play therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "hope-mountain-behavioral-health",
+    "name": "Hope Mountain Behavioral Health",
+    "website": "https://www.myhopemountain.org",
+    "description": "Private/group practice with a tiered training program (practicum student → Intern I → Intern II → LPCC) resembling a real-life therapy job.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "zephyr-behavioral-health-wellness",
+    "name": "Zephyr Behavioral Health & Wellness",
+    "website": "https://zephyrbehavioralhealthandwellness.com",
+    "description": "Denver group practice whose team includes graduate counseling interns.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "cu-denver-student-and-community-counseling-center",
+    "name": "CU Denver Student and Community Counseling Center",
+    "website": "https://www.ucdenver.edu/counseling-center",
+    "description": "University training clinic (SCCC) staffed by psychologists and graduate practicum students; serves CU Denver students and the broader Colorado community at low cost.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "University training clinic"
+    ],
+    "populations": [
+      "Adults",
+      "Couples",
+      "Families"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "msu-denver-counseling-center",
+    "name": "MSU Denver Counseling Center",
+    "website": "https://www.msudenver.edu/counseling-center",
+    "description": "University counseling center offering clinical training opportunities for graduate clinical and counseling psychology students.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "University counseling center"
+    ],
+    "populations": [
+      "College students"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "regis-university-center-for-counseling-family-and-play-therapy",
+    "name": "Regis University Center for Counseling, Family and Play Therapy",
+    "website": "https://www.regis.edu/regis-behavioral-health/center-for-counseling-family-and-play-therapy",
+    "description": "Low-cost/free community training clinic offering in-person counseling, family therapy, and child play therapy delivered by counselors in training.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "University training clinic"
+    ],
+    "populations": [],
+    "services": [
+      "Individual therapy",
+      "Family therapy",
+      "Play therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "mind-forward-health-center",
+    "name": "Mind Forward Health Center",
+    "website": "https://www.mindforwardhealthcenter.com",
+    "description": "Practice offering creative-arts and attachment-based trauma interventions; hosts counseling interns.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "cornerstone-christian-counseling",
+    "name": "Cornerstone Christian Counseling",
+    "website": "https://christiancounselingco.com",
+    "description": "Faith-based counseling practice with a structured internship and practicum program.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Faith-based"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "individual-relationship-therapy-center",
+    "name": "Individual & Relationship Therapy Center",
+    "website": "https://www.individualrelationshipcenter.com",
+    "description": "Practice offering MFT and counseling internships in Denver, with the possibility of joining the team full-time after completion.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Couples",
+      "Individuals"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "family-strong-counseling",
+    "name": "Family Strong Counseling",
+    "website": "https://familystrongcounseling.com",
+    "description": "Family- and couples-oriented practice whose clinical team includes marriage and family therapist interns.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Families",
+      "Couples"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "kin-counseling-services",
+    "name": "Kin Counseling Services",
+    "website": "https://www.kincounseling.co",
+    "description": "Affordable-counseling practice with therapist interns; mindfulness and nervous-system regulation focus.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "elevated-counseling",
+    "name": "Elevated Counseling",
+    "website": "https://www.elevatedcounseling.org",
+    "description": "Reduced-cost counseling delivered by therapist interns; common concerns include anxiety, burnout, perfectionism, and relationships.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "fourth-dimension-counseling",
+    "name": "Fourth Dimension Counseling",
+    "website": "https://fourthdimensioncounseling.com",
+    "description": "Practice with clinical therapist interns; experience with substance use and co-occurring concerns.",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Substance use / addiction"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "divergence-mental-health-group",
+    "name": "Divergence Mental Health Group",
+    "website": "https://www.divergencementalhealth.com",
+    "description": "Neurodivergent-affirming practice in Denver whose clinical team includes therapist interns.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Neurodivergent"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "savio-house",
+    "name": "Savio House",
+    "website": "https://www.saviohouse.org/internships",
+    "description": "Nonprofit serving children, youth, and families; supportive clinical mental health internships with training in evidence-based practices (e.g., FFT/MST).",
+    "area": "Denver metro",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Children",
+      "Families"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "asian-pacific-development-center",
+    "name": "Asian Pacific Development Center",
+    "website": "https://apdc.org",
+    "description": "Integrated health and behavioral health organization serving immigrants and refugees; counseling intern track with bilingual/multicultural services.",
+    "area": "Aurora",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Immigrants & refugees"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [
+      "Multilingual / bilingual"
+    ],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "hiresAfter": false,
+    "source": "research"
   }
 ]
