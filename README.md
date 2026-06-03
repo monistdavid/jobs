@@ -1,5 +1,7 @@
 # Denver 心理咨询师 Internship Finder
 
+**🌐 Live site: https://monistdavid.github.io/jobs/**
+
 A small static site to **browse, filter, and track** counseling (心理咨询师)
 practicum/internship sites across the Denver metro area.
 
