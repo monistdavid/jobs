@@ -152,5 +152,27 @@ el('grid').addEventListener('keydown', (e) => {
   if (e.key === 'Enter') { const card = e.target.closest('.card'); if (card) openPanel(card.dataset.id); }
 });
 
+el('export-btn').addEventListener('click', () => {
+  const blob = new Blob([serialize(store.all())], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'internship-tracking.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+});
+
+el('import-input').addEventListener('change', async (e) => {
+  const file = e.target.files[0]; if (!file) return;
+  try {
+    const next = deserialize(await file.text());
+    store.replaceAll(next);
+    renderStats(); renderGrid();
+    alert('Tracking data imported.');
+  } catch (err) {
+    alert('Import failed: ' + err.message);
+  }
+  e.target.value = '';
+});
+
 // exported for later tasks
 window.__app = { renderGrid, renderStats, state, get SITES(){ return SITES; }, store };
