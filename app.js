@@ -37,12 +37,14 @@ function cardHTML(s) {
   const tags = (s.tags || []).slice(0,3).map((p) => `<span class="pill tag-pill">${esc(p)}</span>`).join('');
   const dl = s.deadline ? `⏳ ${esc(s.deadline)}` : '⏳ —';
   const phone = s.phone ? `<span class="pill phone">📞 ${esc(s.phone)}</span>` : '';
+  const cl = s.coverLetter === 'required' ? '<span class="pill cl-req">✉️ Cover letter</span>'
+    : s.coverLetter === 'not-required' ? '<span class="pill cl-no">✉️ No cover letter</span>' : '';
   return `<article class="card${s.paid ? ' paid' : ''}" data-id="${esc(s.id)}" tabindex="0">
     <span class="accent"></span>
     <div class="top">
       <div class="title-wrap">${sourceTag(s.source)}<h3>${esc(s.name)}</h3></div>
       <span class="status ${statusClass(t.status)}">${esc(t.status)}</span></div>
-    <div class="meta"><span class="pill">📍 ${esc(s.area)}</span>${pay}${tags}${phone}</div>
+    <div class="meta"><span class="pill">📍 ${esc(s.area)}</span>${pay}${cl}${tags}${phone}</div>
     <p class="desc">${esc(s.description) || '<em>No description provided.</em>'}</p>
     <div class="foot"><span class="deadline">${dl}</span><span class="open">Details →</span></div>
   </article>`;
@@ -99,7 +101,7 @@ function renderFilters() {
   const areas = [...new Set(SITES.map((s) => s.area))].sort();
   const chips = [];
   const noFilters = !state.filters.area && !state.filters.paid
-    && !state.filters.source && !state.filters.tag;
+    && !state.filters.source && !state.filters.tag && !state.filters.coverLetter;
   chips.push(chip('All', noFilters, () => { state.filters = {}; sync(); }));
   chips.push(chip('★ My list', state.filters.source === 'spreadsheet', () => {
     state.filters.source = state.filters.source === 'spreadsheet' ? undefined : 'spreadsheet'; sync(); }));
@@ -107,6 +109,8 @@ function renderFilters() {
     state.filters.source = state.filters.source === 'research' ? undefined : 'research'; sync(); }));
   chips.push(chip('💰 Paid only', state.filters.paid === true, () => {
     state.filters.paid = state.filters.paid ? undefined : true; sync(); }, 'terra'));
+  chips.push(chip('✉️ Cover letter req’d', state.filters.coverLetter === 'required', () => {
+    state.filters.coverLetter = state.filters.coverLetter === 'required' ? undefined : 'required'; sync(); }));
 
   // Curated, meaningful tag groups (Setting / Focus) — only those present in the data.
   for (const g of TAG_GROUPS) {
@@ -155,6 +159,7 @@ function openPanel(id) {
     <div class="panel-links">${link}${tel}</div>
     <p class="desc-full">${esc(s.description)}</p>
     ${field('Source', s.source === 'research' ? 'New find (researched online)' : 'My list (from your spreadsheet)')}
+    ${field('Cover letter', { required:'Required', 'not-required':'Not required', unknown:'Unknown — confirm with site' }[s.coverLetter])}
     ${field('Area', s.area)}
     ${field('Addresses', s.addresses)}
     ${field('Site type', s.siteTypes)}

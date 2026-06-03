@@ -195,6 +195,7 @@ function buildRecord([name, website, area, paid, compensationNote, phone, descri
     applyMethod: 'See website',
     contact: '',
     phone: phone || '',
+    coverLetter: extras.coverLetter || 'unknown', // 'required' | 'not-required' | 'unknown'
     hiresAfter: false,
     source: 'research',
   };

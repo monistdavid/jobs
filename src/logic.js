@@ -67,6 +67,7 @@ export function filterSites(sites, f = {}) {
     if (f.source && s.source !== f.source) return false;
     if (f.area && s.area !== f.area) return false;
     if (f.paid === true && s.paid !== true) return false;
+    if (f.coverLetter && s.coverLetter !== f.coverLetter) return false;
     if (f.tag && !arr(s.tags).includes(f.tag)) return false;
     if (f.population && !arr(s.populations).includes(f.population)) return false;
     if (f.language && !arr(s.languages).includes(f.language)) return false;

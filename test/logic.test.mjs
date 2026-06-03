@@ -41,6 +41,8 @@ test('filterSites applies area, paid, population, language filters (AND across c
   assert.deepEqual(filterSites(SAMPLE, { language:'Spanish' }).map(s=>s.id), ['b']);
   assert.deepEqual(filterSites(SAMPLE, { source:'spreadsheet' }).map(s=>s.id), ['a','c']);
   assert.deepEqual(filterSites(SAMPLE, { source:'research' }).map(s=>s.id), ['b']);
+  const cl = [{id:'a',coverLetter:'required'},{id:'b',coverLetter:'unknown'},{id:'c',coverLetter:'required'}];
+  assert.deepEqual(filterSites(cl, { coverLetter:'required' }).map(s=>s.id), ['a','c']);
   assert.deepEqual(filterSites(SAMPLE, { area:'Denver', paid:true }).map(s=>s.id), ['a','c']);
   assert.deepEqual(filterSites(SAMPLE, {}).map(s=>s.id), ['a','b','c']); // no filters -> all
 });

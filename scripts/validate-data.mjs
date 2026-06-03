@@ -23,6 +23,7 @@ export function validate(sites) {
       if (!Array.isArray(s[k])) errors.push(`[${i}] ${k} must be an array`);
     });
     if (typeof s.deadline !== 'string') errors.push(`[${i}] deadline must be a string`);
+    if (!['required','not-required','unknown'].includes(s.coverLetter)) errors.push(`[${i}] bad coverLetter ${s.coverLetter}`);
   });
   return errors;
 }

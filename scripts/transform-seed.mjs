@@ -58,6 +58,12 @@ for (const r of data) {
   while (seen.has(id)) id += '-2';
   seen.add(id);
   const comp = (r[12] || '').trim();
+  const appReqs = splitMulti(r[16]);
+  // The spreadsheet's application-requirements list is authoritative for seed sites:
+  // if it's populated, we know whether a cover letter is among the required materials.
+  const coverLetter = appReqs.length
+    ? (/cover letter/i.test(appReqs.join(' ')) ? 'required' : 'not-required')
+    : 'unknown';
   sites.push({
     id,
     name,
@@ -73,7 +79,8 @@ for (const r of data) {
     compensationNote: comp,
     languages: splitMulti(r[11]),
     positionsCount: (r[14] || '').trim(),
-    applicationRequirements: splitMulti(r[16]),
+    applicationRequirements: appReqs,
+    coverLetter, // 'required' | 'not-required' | 'unknown'
     deadline: (r[17] || '').trim(),
     applyMethod: (r[18] || '').trim(),
     contact: (r[19] || '').trim(),

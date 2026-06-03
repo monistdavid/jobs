@@ -58,6 +58,8 @@ body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--ink);
 .pill.pay{background:#eaf2ec;color:var(--forest-2);font-weight:500}
 .pill.phone{background:#eef1f4;color:#3a5566}
 .pill.tag-pill{background:#e7efe9;color:var(--forest-2)}
+.pill.cl-req{background:#f3e3cf;color:#8a5a25}
+.pill.cl-no{background:#eef0ee;color:var(--ink-soft)}
 .chip-label{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-soft);
   align-self:center;padding:0 4px 0 8px;font-weight:600}
 .panel-links{display:flex;flex-wrap:wrap;gap:14px;margin:4px 0 6px}
