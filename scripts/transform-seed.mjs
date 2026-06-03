@@ -77,6 +77,7 @@ for (const r of data) {
     deadline: (r[17] || '').trim(),
     applyMethod: (r[18] || '').trim(),
     contact: (r[19] || '').trim(),
+    phone: '', // seed sites keep contact info in the `contact` field above
     hiresAfter: /^yes\b/i.test((r[21] || '').trim()),
     source: 'spreadsheet',
   });
