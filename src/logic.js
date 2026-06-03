@@ -31,6 +31,7 @@ export const TAG_GROUPS = [
     { label: 'Trauma',             re: /trauma/ },
     { label: 'Substance use',      re: /substance|addiction|recovery|\bsud\b/ },
     { label: 'Eating disorders',   re: /eating disorder|body image/ },
+    { label: 'Asian / AAPI',       re: /\basian\b|aapi|pacific islander|chinese|mandarin|cantonese|korean|vietnamese|japanese|hmong|filipino|taiwanese|south ?asian|心理/ },
     { label: 'Bilingual / Spanish',re: /spanish|bilingual|multilingual|latino|immigrant|refugee/ },
   ]},
 ];
