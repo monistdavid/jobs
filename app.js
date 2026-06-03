@@ -4,7 +4,7 @@ import { makeStore, STATUSES, serialize, deserialize } from './src/tracking.js';
 
 const store = makeStore(window.localStorage);
 let SITES = [];
-const state = { query:'', sort:'deadline', filters:{} };
+const state = { query:'', sort:'name', filters:{} };
 
 const el = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) =>
@@ -61,7 +61,16 @@ function renderGrid() {
 }
 
 async function init() {
-  SITES = await (await fetch('data/sites.json')).json();
+  try {
+    const res = await fetch('data/sites.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    SITES = await res.json();
+  } catch (err) {
+    el('grid').innerHTML =
+      `<p class="empty">Couldn't load site data (${esc(err.message)}). ` +
+      `If you opened the file directly, run <code>npm run serve</code> and open the localhost URL instead.</p>`;
+    return;
+  }
   renderStats();
   renderFilters();
   renderGrid();
