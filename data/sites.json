@@ -4253,5 +4253,359 @@
     "coverLetter": "unknown",
     "hiresAfter": false,
     "source": "research"
+  },
+  {
+    "id": "the-denver-element",
+    "name": "The Denver ELEMENT",
+    "website": "https://denverelement.org",
+    "description": "LGBTQ+ and HIV-focused outpatient behavioral health org (MHBHC program) accepting master’s-level counseling and social work interns year-round.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Community behavioral health"
+    ],
+    "populations": [
+      "LGBTQ+",
+      "Substance use / addiction"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 382-5900",
+    "coverLetter": "required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "denver-family-institute",
+    "name": "Denver Family Institute",
+    "website": "https://denverfamilyinstitute.org",
+    "description": "COAMFTE-accredited nonprofit MFT training institute and affordable counseling clinic with a two-year certificate/internship program and free supervision.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Training clinic",
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Couples",
+      "Families",
+      "LGBTQ+"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 756-3340",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "birch-psychology",
+    "name": "Birch Psychology",
+    "website": "https://birchpsychology.com",
+    "description": "Capitol Hill psychology group practice with an integrated training clinic hosting master’s and doctoral students from Colorado programs.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Training clinic",
+      "Group practice"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents",
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 529-8595",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "insight-counseling-and-wellness-center",
+    "name": "Insight Counseling and Wellness Center",
+    "website": "https://insightcounselingcenter.com",
+    "description": "Multi-site Denver group practice (Capitol Hill, City Park West, Belcaro) with an affordable-care program staffed by master’s-level clinical interns.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 926-6766",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "empowered-living-collective",
+    "name": "Empowered Living Collective",
+    "website": "https://empoweredlivingcollective.com",
+    "description": "Group practice specializing in trauma-informed and play therapy that hosts master’s-level intern therapists on its clinical team.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents",
+      "Trauma"
+    ],
+    "services": [
+      "Play therapy"
+    ],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 315-4647",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "banyan-counseling-collective",
+    "name": "Banyan Counseling Collective",
+    "website": "https://banyancounselingco.com",
+    "description": "Highlands trauma-informed group practice and university field-placement partner; application is a resume plus a brief email.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Trauma",
+      "Substance use / addiction"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 663-9743",
+    "coverLetter": "not-required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "her-time-therapy",
+    "name": "Her Time Therapy",
+    "website": "https://hertimetherapy.com",
+    "description": "Colorado telehealth group practice for women’s mental health that hosts master’s-level clinical intern therapists.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Women",
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 900-8225",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "wellminded-counseling",
+    "name": "WellMinded Counseling",
+    "website": "https://wellmindedcounseling.com",
+    "description": "Denver (Cherry Creek), Broomfield, and Longmont group practice with an internship/externship program for graduate and post-graduate interns.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Couples",
+      "Families",
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 380-3564",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "colorado-state-employee-assistance-program-cseap",
+    "name": "Colorado State Employee Assistance Program (CSEAP)",
+    "website": "https://cseap.colorado.gov",
+    "description": "State Employee Assistance Program accepting master’s-level social work and counseling interns for short-term, solution-focused counseling to state employees.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Community behavioral health"
+    ],
+    "populations": [
+      "Adults"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 866-4314",
+    "coverLetter": "required",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "denver-counseling-solutions",
+    "name": "Denver Counseling Solutions",
+    "website": "https://denvercounselingsolutions.com",
+    "description": "Group practice whose founder built a prolific internship program providing private-practice training to MFT and counseling grad students.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Group practice"
+    ],
+    "populations": [
+      "Couples",
+      "Families"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(720) 710-0399",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "the-center-for-trauma-resilience",
+    "name": "The Center for Trauma & Resilience",
+    "website": "https://traumahealth.org",
+    "description": "Nonprofit (formerly DCCV) offering graduate internship placements in trauma-informed advocacy/counseling for crime victims, domestic violence, and sexual assault survivors.",
+    "area": "Denver",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Trauma"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 831-7282",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
+  },
+  {
+    "id": "denver-area-youth-services-days",
+    "name": "Denver Area Youth Services (DAYS)",
+    "website": "https://denveryouthservices.org",
+    "description": "Youth-focused nonprofit accepting graduate internships from DU, MSU, and CU; children/family-focused clinical work with some paid positions.",
+    "area": "Lakewood",
+    "addresses": [],
+    "siteTypes": [
+      "Nonprofit / community"
+    ],
+    "populations": [
+      "Children",
+      "Adolescents",
+      "Families"
+    ],
+    "services": [],
+    "deliveryModes": [],
+    "paid": false,
+    "compensationNote": "",
+    "languages": [],
+    "positionsCount": "",
+    "applicationRequirements": [],
+    "deadline": "",
+    "applyMethod": "See website",
+    "contact": "",
+    "phone": "(303) 698-2300",
+    "coverLetter": "unknown",
+    "hiresAfter": false,
+    "source": "research"
   }
 ]
