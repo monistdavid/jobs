@@ -28,6 +28,11 @@ function parseCSV(text) {
 const splitMulti = (v) =>
   String(v || '').split(/[;\n]|,\s(?=[A-Z])/).map((s) => s.trim()).filter(Boolean);
 
+// Addresses must stay whole — split only on newlines/semicolons, never on the
+// comma pattern (which would shred "190 E 9th Ave, Denver, CO" into fragments).
+const splitLines = (v) =>
+  String(v || '').split(/[;\n]/).map((s) => s.trim()).filter(Boolean);
+
 const cityRe = /\b(Denver|Aurora|Lakewood|Westminster|Wheat Ridge|Arvada|Englewood|Littleton|Centennial|Thornton|Broomfield|Boulder|Commerce City|Greeley|Highlands Ranch|Colorado Springs)\b/;
 
 function deriveArea(locations) {
@@ -55,7 +60,7 @@ for (const r of data) {
     website: (r[3] || '').trim(),
     description: (r[4] || '').trim(),
     area: deriveArea(r[15]),
-    addresses: splitMulti(r[15]),
+    addresses: splitLines(r[15]),
     siteTypes: splitMulti(r[6]),
     populations: splitMulti(r[7]),
     services: splitMulti(r[8]),
