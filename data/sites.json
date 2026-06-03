@@ -1,41 +1,5 @@
 [
   {
-    "id": "site-name",
-    "name": "Site Name",
-    "website": "Site Website",
-    "description": "Site Description",
-    "area": "Denver metro",
-    "addresses": [
-      "Position Locations Expected"
-    ],
-    "siteTypes": [
-      "Site Type"
-    ],
-    "populations": [
-      "Site Population"
-    ],
-    "services": [
-      "Site Services"
-    ],
-    "deliveryModes": [
-      "Site Modes of Service"
-    ],
-    "paid": true,
-    "compensationNote": "Compensation/Paid Site",
-    "languages": [
-      "Language Requirements"
-    ],
-    "positionsCount": "Number of Positions Expected",
-    "applicationRequirements": [
-      "Site Application Process"
-    ],
-    "deadline": "Application Deadline",
-    "applyMethod": "Preferred Application Method",
-    "contact": "Site or Application Questions -  Contact",
-    "hiresAfter": false,
-    "source": "spreadsheet"
-  },
-  {
     "id": "better-life-therapy",
     "name": "Better Life Therapy",
     "website": "Betterlifecolorado.com",

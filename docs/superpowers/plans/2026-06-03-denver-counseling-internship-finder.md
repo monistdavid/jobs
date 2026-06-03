@@ -482,7 +482,7 @@ function deriveArea(locations) {
 const res = await fetch(URL);
 if (!res.ok) throw new Error(`fetch failed: HTTP ${res.status}`);
 const rows = parseCSV(await res.text());
-const data = rows.slice(2); // row 0 = Q-codes, row 1 = headers
+const data = rows.slice(3); // row 0 = Q-codes, row 1 = question text, row 2 = sub-header/template row
 
 const sites = [];
 const seen = new Set();
